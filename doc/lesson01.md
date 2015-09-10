@@ -69,7 +69,7 @@
 - Управление логированием по JMX.
 - Контекст приложения. Деплой в Tomcat без IDE. Remote debug.
 
-## <a href="">Уровни и зависимости логгирования, JMX</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSVRES241MlB2bkE">Уровни и зависимости логгирования. JMX</a>
 
 ## Домашнее задание HW01
  
