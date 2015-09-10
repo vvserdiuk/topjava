@@ -5,8 +5,8 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOGU0a3ZUbFo3Skk">Домашнее задание: реализация getFilteredMealsWithExceeded через Stream API</a> 
 -  <a href="http://www.youtube.com/watch?v=_PDIVhEs6TM">Доступно о Java 8 Lambda</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQ1UwZjdMUzRrakU">1_ Lambda_ samples.patch</a>**
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaE1ycEhQYUV2QjA">2_ HW0.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYlhhZzBad3lJRFU">1_ Lambda_ samples.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMWY3Rl9NWXJmQ3c">2_ HW0.patch</a>**
 - <a href="http://prologistic.com.ua/polnoe-rukovodstvo-po-java-8-stream.html">Перевод "Java 8 Stream Tutorial"</a>
 - <a href="https://docs.google.com/presentation/d/1fR1N_UsQDhOarLKo5nrgMU1r5-M8v-IbKhpS3sQTKnY">Основное в Java 8</a>
 
