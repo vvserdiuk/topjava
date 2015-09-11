@@ -54,6 +54,7 @@
 
 - Ресурсы:
   - <a href="http://www.techinfo.net.ru/docs/web/javawebdev.html">Технологии Java для разработки веб-приложений</a>
+  - <a href="http://blog.trifork.com/2014/07/14/how-to-remotely-debug-application-running-on-tomcat-from-within-intellij-idea">Remotely debug on tomcat from IDEA</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeGJCdDJHbWNyUzg&authuser=0">Логирование.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcEdRUnp0ZlY2cnc">7_ Add_ logging.patch</a>**
