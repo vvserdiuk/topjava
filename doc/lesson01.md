@@ -81,5 +81,5 @@
     
 Optional
 
-    Сделать реализацию CRUD (create/read/update/delete) для списка еды.
+    Сделать реализацию CRUD (create/read/update/delete) для списка еды (хранение в памяти)
     Цвет записи в таблице зависит от параметра isExceeded. 
