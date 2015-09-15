@@ -83,7 +83,8 @@
     -  из сервлета обращаетесь к реализации хранения еды в памяти;
     -  преобразуете результат в List<UserMealWithExceeded>;
     -  кладете список в запрос (request.setAttribute);
-    -  делаете forward на jsp для отрисовки таблицы (при redirect аттрибуты теряются). В jsp для цикла можно использовать JSTL tag forEach.
+    -  делаете forward на jsp для отрисовки таблицы (при redirect аттрибуты теряются). 
+       В jsp для цикла можно использовать JSTL tag forEach.
     
 Optional
 
