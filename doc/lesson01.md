@@ -76,6 +76,7 @@
 - Ресурсы:
   - <a href="http://java-course.ru/student/book1/jsp/">JSP/JSTL</a>
   - <a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a>
+
   
     По аналогии с Users добавить MealServlet и mealList.jsp.
     Задеплоить приложение (war) в Tomcat c applicationContext=topjava
