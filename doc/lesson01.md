@@ -92,5 +92,6 @@ Optional
     AJAX/JavaScript использовать не надо, делаем через <form method="post" и doPost() в сервлете.
 
 - Ресурсы:
+  - <a href="http://java-course.ru/student/book1/servlet/">Интернет-приложения на JAVA</a>
   - <a href="http://java-course.ru/student/book1/jsp/">JSP/JSTL</a>
   - <a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a>
