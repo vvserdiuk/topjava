@@ -77,6 +77,7 @@
     По аналогии с Users добавить MealServlet и mealList.jsp.
     Задеплоить приложение (war) в Tomcat c applicationContext=topjava
     Попробовать разные деплои в Tomcat, remote и local debug
+    
     Сделать отображения списка еды в jsp, цвет записи в таблице зависит от параметра isExceeded.
     Вариант реализации: 
     -  из сервлета обращаетесь к реализации хранения еды в памяти;
