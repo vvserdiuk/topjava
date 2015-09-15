@@ -96,5 +96,5 @@ Optional
   - <a href="http://stackoverflow.com/questions/246859/http-1-0-vs-1-1">HTTP 1.0 vs 1.1</a>
   - <a href="http://java-course.ru/student/book1/jsp/">JSP</a>
   - <a href="http://devcolibri.com/1250">JSTL для написания JSP страниц</a>
-  - <a href="http://javasource.ru:5050/articles.xhtml?artlink=jstl-core-tags-xmlns-c>JSTL библиотека базовых тегов</a>
+  - <a href="http://javasource.ru:5050/articles.xhtml?artlink=jstl-core-tags-xmlns-c">JSTL библиотека базовых тегов</a>
   - <a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a>
