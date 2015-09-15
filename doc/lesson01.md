@@ -73,7 +73,10 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSVRES241MlB2bkE">Уровни и зависимости логгирования. JMX</a>
 
 ## Домашнее задание HW01
- 
+- Ресурсы:
+  - <a href="http://java-course.ru/student/book1/jsp/">JSP/JSTL</a>
+  - <a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a>
+  
     По аналогии с Users добавить MealServlet и mealList.jsp.
     Задеплоить приложение (war) в Tomcat c applicationContext=topjava
     Попробовать разные деплои в Tomcat, remote и local debug
