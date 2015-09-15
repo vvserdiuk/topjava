@@ -74,13 +74,16 @@
 
 ## Домашнее задание HW01
  
-    Попробовать разные деплои в Tomcat, remote и local debug
     По аналогии с Users добавить MealServlet и mealList.jsp.
-    Добавить в JSP и index.html ссылки друг на друга
-    Задеплоить приложение (war) в Tomcat c applicationContext=topjava и проверить работу ссылок
+    Задеплоить приложение (war) в Tomcat c applicationContext=topjava
+    Попробовать разные деплои в Tomcat, remote и local debug
+    Сделать отображения списка еды в jsp, цвет записи в таблице зависит от параметра isExceeded.
+    Вариант реализации: 
+    -  в сервлете обращаетесь к реализации хранения еды в памяти
+    -  преобразуете результат в List<UserMealWithExceeded>,
+    -  кладете список в запрос (request.setAttribute)
+    -  делаете forward на jsp для отрисовки таблицы. В jsp для цикла можно использовать JSTL tag forEach.
     
 Optional
 
-    Сделать реализацию CRUD (create/read/update/delete) для списка еды (хранение в памяти)
-    Цвет записи в таблице зависит от параметра isExceeded.
-    AJAX / JavaScript использовать не надо.
+    Сделать реализацию CRUD (create/read/update/delete) для списка еды. AJAX / JavaScript использовать не надо.
