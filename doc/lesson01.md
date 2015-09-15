@@ -94,5 +94,6 @@ Optional
 - Ресурсы:
   - <a href="http://java-course.ru/student/book1/servlet/">Интернет-приложения на JAVA</a>
   - <a href="http://stackoverflow.com/questions/246859/http-1-0-vs-1-1">HTTP 1.0 vs 1.1</a>
-  - <a href="http://java-course.ru/student/book1/jsp/">JSP/JSTL</a>
+  - <a href="http://java-course.ru/student/book1/jsp/">JSP</a>
+  - <a href="http://devcolibri.com/1250">JSTL для написания JSP страниц</a>
   - <a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a>
