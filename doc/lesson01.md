@@ -51,6 +51,9 @@
     - Томкат менеджер: http://localhost:8080/manager
     - Наше приложение: http://localhost:8080/topjava</a>
     - Наш сервлет:     http://localhost:8080/topjava/users
+  - <a href="http://java-course.ru/student/book1/servlet/">Интернет-приложения на JAVA</a>
+  - <a href="http://java-course.ru/student/book1/jsp/">JSP/JSTL</a>
+  - <a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a>
 
 - Ресурсы:
   - <a href="http://www.techinfo.net.ru/docs/web/javawebdev.html">Технологии Java для разработки веб-приложений</a>
@@ -90,8 +93,3 @@ Optional
 
     Сделать реализацию CRUD (create/read/update/delete) для списка еды.
     AJAX/JavaScript использовать не надо, делаем через <form method="post" и doPost() в сервлете.
-
-- Ресурсы:
-  - <a href="http://java-course.ru/student/book1/servlet/">Интернет-приложения на JAVA</a>
-  - <a href="http://java-course.ru/student/book1/jsp/">JSP/JSTL</a>
-  - <a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a>
