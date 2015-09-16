@@ -1,9 +1,9 @@
-# Занятие 1 онлайн проекта <a href="http://javawebinar.ru/topjava/">Topjava</a>
+# Занятие 1 онлайн проекта <a href="https://github.com/JavaWebinar/topjava04">Topjava</a>
 
 **Напоминаю, что cвой код пишете только в ветках HW. Код в ветке MASTER трогать нельзя вообще! Модификация кода только через патчи в материалах урока (Apply Patch), иначе с ними будут проблемы. Делать Apply можно как по ходу видео, так и немного заранее -  тогда при просмотре видео вы сразу сможете отслеживать изменения кода проекта.** 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfm5hSHEtbmxmN2kxb0NocVRwWl9KanowWXVCVXRZTlhaM09wQUswZkRidTA">Материалы урока</a>
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOGU0a3ZUbFo3Skk">Домашнее задание: реализация getFilteredMealsWithExceeded через Stream API</a> 
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOGU0a3ZUbFo3Skk">HW0 (Optional): реализация getFilteredMealsWithExceeded через Stream API</a> 
 -  <a href="http://www.youtube.com/watch?v=_PDIVhEs6TM">Доступно о Java 8 Lambda</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYlhhZzBad3lJRFU">1_ Lambda_ samples.patch</a>**
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMWY3Rl9NWXJmQ3c">2_ HW0.patch</a>**
