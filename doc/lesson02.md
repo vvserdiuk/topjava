@@ -61,7 +61,7 @@ Optional
 
      Дополнить InMemoryUserMealRepository новой функциональностью (фильтрация и пользователи).    
      Внедрить UserMealRestController в MealServlet и работать через него.
-     Добывить в UI фильтрацию еды и выбор текущего пользователя (например через html select).
+     Добавить в UI фильтрацию еды и выбор текущего пользователя (например через html select).
      Доставать список пользователей через AdminRestController, добавив тестовые данные 
      в MockUserRepositoryImpl.getAll()
      
