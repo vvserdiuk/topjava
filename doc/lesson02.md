@@ -49,7 +49,7 @@
    -  <a href="https://github.com/spring-projects">Spring на GitHub</a>
   
 ## Домашнее задание HW02
-    Сделать API для классов UserMeal
+    Сделать API для функциональности "еда"
     - Каждая еда принадлежит пользователю
     - Пользователь может управлять ТОЛЬКО СВОЕЙ едой: id авторизованного пользователя LoggedUser.id()
     - Нельзя позволять модифицировать/смотреть чужую еду (бросать NotFoundException)
@@ -59,7 +59,11 @@
     
 Optional 
 
-     Реализовать в InMemoryUserMealRepository новую функциональность 
+     Дополнить InMemoryUserMealRepository новой функциональностью (фильтрация и пользователи).    
+     Внедрить UserMealRestController в MealServlet и работать через него.
+     Добывить в UI фильтрацию еды и выбор текущего пользователя (например через html select).
+     Доставать список пользователей через AdminRestController, добавив тестовые данные в MockUserRepositoryImpl.getAll()
+     
 
 Примечания:
 
