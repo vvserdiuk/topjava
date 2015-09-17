@@ -9,6 +9,7 @@
 - <a href="http://javatutor.net/articles/jstl-patterns-for-developing-web-application-1">JSTL: Шаблоны для разработки веб-приложений в java</a>
 - <a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a>
 - <a href="http://codehelper.ru/questions/205/new/repository-и-dao-отличия-преимущества-недостатки">Паттерны Repository и DAO</a>
+- <a href="http://habrahabr.ru/post/263033/">Забудьте о DAO, используйте Repository</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQndBeWFOa3phRTg">HW1 (Optional): реализация CRUD</a> 
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFblp6SkNzMVhiVUk">2_ HW1_ Optional.patch</a>**
