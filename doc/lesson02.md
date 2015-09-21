@@ -68,7 +68,8 @@ Optional
      Обращаться к UserMealRestController из сервлета MealServlet (НЕ менять в pom.xml, работаем со spring-context).
      Добавить в UI фильтрацию еды и выбор текущего залогиненного пользователя (имитация авторизации)
           (например через html select и LoggedUser.setId(userId)). 
-     Доставать список пользователей через AdminRestController, добавив тестовые данные в MockUserRepositoryImpl.getAll()
+     Доставать список пользователей через AdminRestController, 
+                                           добавив тестовые данные в MockUserRepositoryImpl.getAll()
      Роли использовать не надо, администратор не имеет доступа к еде пользователя.
      
 
