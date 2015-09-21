@@ -65,7 +65,9 @@ Optional
      Дополнить InMemoryUserMealRepository новой функциональностью (фильтрация и пользователи).    
      Обращаться к UserMealRestController из сервлета MealServlet.
      НЕ менять в pom.xml, работаем со spring-context.
-     Добавить в UI фильтрацию еды и выбор текущего пользователя (например через html select).
+     Добавить в UI фильтрацию еды и выбор текущего залогиненного пользователя (имитация авторизации)
+          (например через html select и LoggedUser.setId(userId)). 
+     Роли использовать не надо, администратор не имеет доступа к еде пользователя.
      Доставать список пользователей через AdminRestController, добавив тестовые данные 
      в MockUserRepositoryImpl.getAll()
      
