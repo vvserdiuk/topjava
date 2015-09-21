@@ -62,7 +62,8 @@
     
 Optional 
 
-     Дополнить InMemoryUserMealRepository новой функциональностью (фильтрация и пользователи).    
+     Дополнить InMemoryUserMealRepository новой функциональностью (фильтрация, см. http://topjava.herokuapp.com/)
+     и хранение еды для разный пользователей.    
      Обращаться к UserMealRestController из сервлета MealServlet.
      НЕ менять в pom.xml, работаем со spring-context.
      Добавить в UI фильтрацию еды и выбор текущего залогиненного пользователя (имитация авторизации)
