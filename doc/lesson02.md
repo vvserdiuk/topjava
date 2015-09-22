@@ -49,7 +49,7 @@
    -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/">Spring Framework Reference Documentation</a>
    -  <a href="https://github.com/spring-projects">Spring на GitHub</a>
 
-##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFN2N6LS1PVE96SW8">Пояснения к HW1. Обработка Autowired</a>
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFN2N6LS1PVE96SW8">Пояснения к HW2. Обработка Autowired</a>
   
 ## Домашнее задание HW02
     Сделать реализацию слоев приложения для функциональности "еда"
