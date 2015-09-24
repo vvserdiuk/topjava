@@ -66,9 +66,9 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVmZaSm9UMktXUnc">Логирование тестов.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFazhJU0gtMGY4WGs">10_ test_ logging.patch</a>**
-   
-## Домашнее задание HW03
+
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWFlYd0FkWTJtR3c">11_ prepare_ HW3.patch</a>**
+## Домашнее задание HW03
     - Дополнить скрипты создания и инициализации базы таблицой MEALS.
     - Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
       - сделать каждый метод за один SQL запрос
@@ -76,8 +76,9 @@
                                    (для UI и REST это лишние данные, userId это id залогиненного пользователя) 
       - postgres драйвер не понимает LocalDateTime, использовать преобразования: 
                                     Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
-    - Cписок еды должен быть отсортирован (тогда мы его сможем сравнивать с тестовыми данными). 
-      Кроме того это требуется для UI и API: последняя еда наверху.     
+      - JbdcTemplate работает через сеттеры. Нужно их добавить в UserMeal
+      - Cписок еды должен быть отсортирован (тогда мы его сможем сравнивать с тестовыми данными). 
+        Кроме того это требуется для UI и API: последняя еда наверху.     
 
 Optional 
 
@@ -87,3 +88,9 @@ Optional
     - Запустить скрипт инициализации initDB.sql на базу и протестировать сервис UserMealService. 
     - Сделаеть тесты на чужих юзеров (delete, get, update) с тем чтобы получить NotFoundException
     - Проверить работу MealServelt, запустив приложение
+
+Примечания
+
+    - Где преобразование Timestamp <-> LocalDateTime?
+      Варианты: 1. можно в сеттерах
+                2. лучше сделать свой маппер
