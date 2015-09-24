@@ -9,7 +9,7 @@
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUmdMWEk0M2x2d0k">2_ HW2_ Optional.patch</a>**
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOU8wWlpPVE05STA">Коротко о жизненном цикле Spring контекста.</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWDZwZ3NOYXgyc1E">03_ bean_ life_ cycle.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWDZwZ3NOYXgyc1E">3_ bean_ life_ cycle.patch</a>**
 -  <a href="http://habrahabr.ru/post/222579/">Spring изнутри. Этапы инициализации контекста.</a>
 -  Ресурсы:
    -  <a href="http://vk.com/javawebinar?z=video-58538268_169373158%2Fvideos-58538268">Евгений Борисов. Spring, часть 1</a>
@@ -17,6 +17,9 @@
    -  <a href="http://www.slideshare.net/taemonz/spring-framework-core-23721778">Презентация Spring framework core</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODlkU1B0QnNnSGs">Тестирование через JUnit.</a>
+- ВНИМЕНИЕ: перед накаткой патча создайте каталог test (из корня проекта путь \src\test), иначе часть файлов попадет в src\main
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcnpGNHEydXo5NGc">4_ Add Junit.patch</a>** 
+
 -  Перенос mock реализации в test.
 -  <a href="http://junit.org/">JUnit 4</a>
 -  <a href="http://habrahabr.ru/post/120101/">Тестирование в Java. JUnit</a>
