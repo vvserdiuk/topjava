@@ -17,8 +17,7 @@
    -  <a href="http://www.slideshare.net/taemonz/spring-framework-core-23721778">Презентация Spring framework core</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODlkU1B0QnNnSGs">Тестирование через JUnit.</a>
-- ВНИМЕНИЕ: перед накаткой патча создайте каталог test (из корня проекта путь \src\test), иначе часть файлов попадет в src\main
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcnpGNHEydXo5NGc">4_ Add Junit.patch</a>** 
+- ВНИМЕНИЕ: перед накаткой патча создайте каталог test (из корня проекта путь \src\test), иначе часть файлов попадет в src\main. **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcnpGNHEydXo5NGc">4_ Add Junit.patch</a>** 
 
 -  Перенос mock реализации в test.
 -  <a href="http://junit.org/">JUnit 4</a>
