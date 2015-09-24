@@ -69,6 +69,9 @@
 
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWFlYd0FkWTJtR3c">11_ prepare_ HW3.patch</a>**
 ## Домашнее задание HW03
+
+Optional 
+
     - Дополнить скрипты создания и инициализации базы таблицой MEALS.
     - Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
       - сделать каждый метод за один SQL запрос
@@ -82,9 +85,6 @@
     - Где преобразование Timestamp <-> LocalDateTime? Варианты: 
       1. можно в сеттерах
       2. лучше сделать свой маппер
-
-Optional 
-
     - Сделать тестовые данные MealTestData, АНОЛОГИЧНЫЕ пропопулированным в populateDB.sql. 
       Тестовый класс-обертка к UserMeal не требуется, сравниваем данные через готовый MATCHER (toString)
     - Сделать UserMealServiceTest из UserMealService (Ctrl+Shift+T и выбрать JUnit4) и реализовать тесты.
