@@ -69,6 +69,20 @@
 
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWFlYd0FkWTJtR3c">11_ prepare_ HW3.patch</a>**
 ## Домашнее задание HW03
+    - Дополнить скрипты создания и инициализации базы таблицой MEALS.
+    - Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
+      - сделать каждый метод за один SQL запрос
+      - userId в результат UserMeal вставлять НЕ надо 
+                                   (для UI и REST это лишние данные, userId это id залогиненного пользователя) 
+      - postgres драйвер не понимает LocalDateTime, использовать преобразования: 
+                                    Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
+      - JbdcTemplate работает через сеттеры. Нужно их добавить в UserMeal
+      - Cписок еды должен быть отсортирован (тогда мы его сможем сравнивать с тестовыми данными). 
+        Кроме того это требуется для UI и API: последняя еда наверху.
+
+    - Где преобразование Timestamp <-> LocalDateTime? Варианты: 
+      1. можно в сеттерах
+      2. лучше сделать свой маппер
 
 Optional 
 
