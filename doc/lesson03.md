@@ -24,6 +24,7 @@
 -  <a href="http://habrahabr.ru/post/120101/">Тестирование в Java. JUnit</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFai1veG9qaFZlZ2s">Spring Test</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWl90eWticFZzZ1E">5_ Add_ spring_ test.patch</a>**
 -  Интеграция Spring и JUnit.
 -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#testing">Spring Testing</a>
 
@@ -42,6 +43,7 @@
   - <a href="https://www.youtube.com/playlist?list=PLIU76b8Cjem5qdMQLXiIwGLTLyUHkTqi2">Обущающее видео по JDBC</a>
                 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQWtHYU1qTDlMWVE">Настройка Database в IDEA.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZXhDZUphcGQ4NjA">6_ Add_ postgresql.patch</a>**
 -  <a href="http://habrahabr.ru/company/JetBrains/blog/204064/">Настройка Database в IDEA</a> и запуск SQL.
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMGNWUXhaVzdlU0k">Скрипты инициализации базы. Spring Jdbc Template.</a>
