@@ -9,6 +9,7 @@
 - <a href="http://javatutor.net/articles/jstl-patterns-for-developing-web-application-1">JSTL: Шаблоны для разработки веб-приложений в java</a>
 - <a href="http://design-pattern.ru/patterns/mvc.html">MVC - Model View Controller</a>
 - <a href="http://codehelper.ru/questions/205/new/repository-и-dao-отличия-преимущества-недостатки">Паттерны Repository и DAO</a>
+- <a href="http://habrahabr.ru/post/263033/">Забудьте о DAO, используйте Repository</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQndBeWFOa3phRTg">HW1 (Optional): реализация CRUD</a> 
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFblp6SkNzMVhiVUk">2_ HW1_ Optional.patch</a>**
@@ -47,19 +48,29 @@
    -  <a href="https://spring.io/guides">Getting Started</a>
    -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/">Spring Framework Reference Documentation</a>
    -  <a href="https://github.com/spring-projects">Spring на GitHub</a>
+
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFN2N6LS1PVE96SW8">Пояснения к HW2. Обработка Autowired</a>
   
 ## Домашнее задание HW02
-    Сделать API для классов UserMeal
+    Сделать реализацию слоев приложения для функциональности "еда"
+    - Интерфейс UserMealRepository ИЗМЕНИТЬ в соответствии с заданием и по аналогии с UserRepository
     - Каждая еда принадлежит пользователю
     - Пользователь может управлять ТОЛЬКО СВОЕЙ едой: id авторизованного пользователя LoggedUser.id()
     - Нельзя позволять модифицировать/смотреть чужую еду (бросать NotFoundException)
-    - API должна удовлетворять все потребности демо приложения и ничего кроме этого
+          (контроллеры смотрят наружу, нам может прийти совершенно любой запрос)
+    - API должна удовлетворять все потребности демо приложения и ничего кроме этого.
+      Реализация слоев останется, далее мы будет подменять только реализацию репозиториев.
        
     Включить в контекст Spring и вызвать в SpringMain методы UserMealRestController
     
 Optional 
 
-     Реализовать в InMemoryUserMealRepository новую функциональность 
+     Дополнить InMemoryUserMealRepository новой функциональностью: фильтрация (см. http://topjava.herokuapp.com/)
+     и хранение еды для разных пользователей.    
+     Обращаться к UserMealRestController из MealServlet (НЕ менять в pom.xml, работаем со spring-context),
+     учесть что в дальнейшем мы будем работать с контроллерами, без сервлетов.
+     Добавить в UI фильтрацию еды и выбор текущего залогиненного пользователя (имитация авторизации)
+                                                    (например через html select и LoggedUser.setId(userId)). 
 
 Примечания:
 
