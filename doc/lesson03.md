@@ -69,3 +69,22 @@
    
 ## Домашнее задание HW03
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWFlYd0FkWTJtR3c">11_ prepare_ HW3.patch</a>**
+
+    - Дополнить скрипты создания и инициализации базы таблицой MEALS.
+    - Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
+      - сделать каждый метод за один SQL запрос
+      - userId в результат UserMeal вставлять НЕ надо 
+                                   (для UI и REST это лишние данные, userId это id залогиненного пользователя) 
+      - postgres драйвер не понимает LocalDateTime, использовать преобразования: 
+                                    Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
+    - Cписок еды должен быть отсортирован (тогда мы его сможем сравнивать с тестовыми данными). 
+      Кроме того это требуется для UI и API: последняя еда наверху.     
+
+Optional 
+
+    - Сделать тестовые данные MealTestData, АНОЛОГИЧНЫЕ пропопулированным в populateDB.sql. 
+      Тестовый класс-обертка к UserMeal не требуется, сравниваем данные через готовый MATCHER (toString)
+    - Сделать UserMealServiceTest из UserMealService (Ctrl+Shift+T и выбрать JUnit4) и реализовать тесты.
+    - Запустить скрипт инициализации initDB.sql на базу и протестировать сервис UserMealService. 
+    - Сделаеть тесты на чужих юзеров (delete, get, update) с тем чтобы получить NotFoundException
+    - Проверить работу MealServelt, запустив приложение
