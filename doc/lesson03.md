@@ -3,7 +3,7 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfllmQWR2cE90UGp5RERHaE95cnVDNmZTRFJCejVhM191NDZlREwzeDdXdmc">Материалы урока</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWTdkTEhBNGQxRDA">HW2: делаем API еды</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbHZaNnB6X05GbG8">1_ HW2.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVk9LeGRRZVZMbms">1_ HW2.patch</a>**
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWTdkTEhBNGQxRDA">HW2: Optional</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUmdMWEk0M2x2d0k">2_ HW2_ Optional.patch</a>**
