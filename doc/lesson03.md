@@ -47,6 +47,7 @@
 -  <a href="http://habrahabr.ru/company/JetBrains/blog/204064/">Настройка Database в IDEA</a> и запуск SQL.
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMGNWUXhaVzdlU0k">Скрипты инициализации базы. Spring Jdbc Template.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbjZ3eXBRWlNTQjg">7_ populate_ and_ init_ db.patch</a>**
 -  Скрипты инициализация базы
 
 -  Подключение <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html">Spring Jdbc</a>.
