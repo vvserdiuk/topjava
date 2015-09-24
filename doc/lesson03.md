@@ -69,6 +69,7 @@
    
 ## Домашнее задание HW03
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWFlYd0FkWTJtR3c">11_ prepare_ HW3.patch</a>**
+ 
 
 
     - Дополнить скрипты создания и инициализации базы таблицой MEALS.
