@@ -69,6 +69,7 @@
 
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWFlYd0FkWTJtR3c">11_ prepare_ HW3.patch</a>**
 ## Домашнее задание HW03
+
     - Дополнить скрипты создания и инициализации базы таблицой MEALS.
     - Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
       - сделать каждый метод за один SQL запрос
