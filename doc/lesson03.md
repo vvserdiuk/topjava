@@ -50,7 +50,9 @@
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbjZ3eXBRWlNTQjg">7_ populate_ and_ init_ db.patch</a>**
 -  Скрипты инициализация базы
 
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUElTdEs5a2M4ZDg">8_ impl_ JdbcUserRepository.patch</a>**
 -  Подключение <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html">Spring Jdbc</a>.
+
 -  Конфигурирование DataSource. <a href="http://www.mkyong.com/spring/spring-propertyplaceholderconfigurer-example/">property-placeholder</a>
    (проверьте, что в контекст Spring проекта включены оба файла конфигурации: https://drive.google.com/open?id=0B9Ye2auQ_NsFYThYOFNHbnNzd0E).
 -  Имплементация UserRepository через Spring Jdbc Template.
