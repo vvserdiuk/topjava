@@ -57,7 +57,7 @@
   - <a href="http://blog.trifork.com/2014/07/14/how-to-remotely-debug-application-running-on-tomcat-from-within-intellij-idea">Remotely debug on tomcat from IDEA</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeGJCdDJHbWNyUzg&authuser=0">Логирование.</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcEdRUnp0ZlY2cnc">7_ Add_ logging.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMUZ5RUMyM1JBMTA">7_ Add_ logging.patch</a>**
 
 - <a href="http://www.youtube.com/watch?v=Lyqc8HicPMM">Видео с TopJava01</a>
 - <a href="http://habrahabr.ru/post/113145/">Java Logging: история кошмара</a>
