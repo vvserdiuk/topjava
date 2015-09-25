@@ -57,7 +57,7 @@
    (проверьте, что в контекст Spring проекта включены оба файла конфигурации: https://drive.google.com/open?id=0B9Ye2auQ_NsFYThYOFNHbnNzd0E).
 -  Имплементация UserRepository через Spring Jdbc Template.
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWXlqQW1pcl9fUlE">Подготовка тестовых данных и тестирование UserService.</a>
+## <a href="https://drive.google.com/open?id=0B4dIHS3wRAhhQUJMMFU0VnRrUUE">Подготовка тестовых данных и тестирование UserService.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNTRqMlNUQ0hrWW8">9_ test_ UserService.patch</a>**
 -  Подготовка тестовых данных в UserServiceTest. Добавление TestUser и ModelMatcher
 -  Тестирование UserService.
