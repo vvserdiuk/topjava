@@ -20,7 +20,7 @@
 -  <a href="http://commons.apache.org/">Apache Commons</a>, <a href="https://code.google.com/p/guava-libraries/wiki/GuavaExplained">Guava</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSFR1cDBIamIzQjA">Слои приложения. Создание каркаса приложения.</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUjZaMEVaRjNMNkU">3_ App_ layers.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeWU0bExOdmE1Y1E">3_ App_ layers.patch</a>**
 -  <a href="https://www.genuitec.com/products/myeclipse/learning-center/spring/myeclipse-for-spring-reference-blueprints/">Архитектурные
             слои приложения в Spring</a>
 -  <a href="https://ru.wikipedia.org/wiki/Инверсия_управления">Инверсия управления.</a><a href="http://image.slidesharecdn.com/springintroduction-130729220359-phpapp01/95/spring-introduction-3-638.jpg?cb=1375162442">DI/
