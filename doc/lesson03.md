@@ -95,4 +95,5 @@ Optional
     - Запустить скрипт инициализации initDB.sql на базу и протестировать сервис UserMealService. 
     - Сделаеть тесты на чужих юзеров (delete, get, update) с тем чтобы получить NotFoundException
     - Проверить работу MealServelt, запустив приложение
-    - Предложить решение, как почнинить SpringMain/ AdminInMemoryTest/ SpringAdminInMemoryTest
+    - Предложить решение, как почнинить SpringMain/ AdminInMemoryTest/ SpringAdminInMemoryTest для реализации 
+      in-memory тестов.
