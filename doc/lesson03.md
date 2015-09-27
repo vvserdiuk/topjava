@@ -72,6 +72,7 @@
 
 Required 
 
+    - Понять, почему перестали работать SpringMain/ AdminInMemoryTest/ SpringAdminInMemoryTest
     - Дополнить скрипты создания и инициализации базы таблицой MEALS.
     - Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
       - сделать каждый метод за один SQL запрос
@@ -94,3 +95,4 @@ Optional
     - Запустить скрипт инициализации initDB.sql на базу и протестировать сервис UserMealService. 
     - Сделаеть тесты на чужих юзеров (delete, get, update) с тем чтобы получить NotFoundException
     - Проверить работу MealServelt, запустив приложение
+    - Предложить решение, как почнинить SpringMain/ AdminInMemoryTest/ SpringAdminInMemoryTest
