@@ -83,9 +83,8 @@ Required
         Кроме того это требуется для UI и API: последняя еда наверху.
       - postgres драйвер не понимает LocalDateTime, использовать преобразования: 
                                     Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
-      - где преобразовывать Timestamp <-> LocalDateTime? Варианты: 
-       - можно в сеттерах
-       - лучше сделать свой маппер
+      - где преобразовывать Timestamp <-> LocalDateTime? 
+        Можно в геттерах/сеттерах UserMeal, но лучше сделать свой RowMapper
 
 Optional 
 
