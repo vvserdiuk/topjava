@@ -90,7 +90,8 @@ Required
 Optional 
 
     - Сделать тестовые данные MealTestData, АНОЛОГИЧНЫЕ пропопулированным в populateDB.sql. 
-      Тестовый класс-обертка к UserMeal не требуется, сравниваем данные через готовый MATCHER (toString)
+      Тестовый класс-обертка к UserMeal не требуется, сравниваем данные через готовый MATCHER (toString),
+      пока будем сравнивать без userId.
     - Сделать UserMealServiceTest из UserMealService (Ctrl+Shift+T и выбрать JUnit4) и реализовать тесты.
     - Запустить скрипт инициализации initDB.sql на базу и протестировать сервис UserMealService. 
     - Сделаеть тесты на чужих юзеров (delete, get, update) с тем чтобы получить NotFoundException
