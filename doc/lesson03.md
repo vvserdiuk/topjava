@@ -73,7 +73,7 @@
 Required 
 
     - Понять, почему перестали работать SpringMain/ AdminInMemoryTest/ SpringAdminInMemoryTest
-    - Дополнить скрипты создания и инициализации базы таблицой MEALS.
+    - Дополнить скрипты создания и инициализации базы таблицой MEALS. Запустить скрипты на вашу базу (через Run)
     - Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
       - сделать каждый метод за один SQL запрос
       - userId в результат UserMeal вставлять НЕ надо 
@@ -85,6 +85,7 @@ Required
                                     Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
       - где преобразовывать Timestamp <-> LocalDateTime? 
         Можно в геттерах/сеттерах UserMeal, но лучше сделать свой RowMapper
+    - Проверить работу MealServelt, запустив приложение
 
 Optional 
 
@@ -94,6 +95,5 @@ Optional
     - Сделать UserMealServiceTest из UserMealService (Ctrl+Shift+T и выбрать JUnit4) и реализовать тесты.
     - Запустить скрипт инициализации initDB.sql на базу и протестировать сервис UserMealService. 
     - Сделаеть тесты на чужих юзеров (delete, get, update) с тем чтобы получить NotFoundException
-    - Проверить работу MealServelt, запустив приложение
     - Предложить решение, как почнинить SpringMain/ AdminInMemoryTest/ SpringAdminInMemoryTest для реализации 
       in-memory тестов.
