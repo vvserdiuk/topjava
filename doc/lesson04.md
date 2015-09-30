@@ -73,6 +73,8 @@
 -  <a href="http://stackoverflow.com/questions/31965179/whats-new-in-hibernate-5">What's new in Hibernate 5?</a>
 -  <a href="https://github.com/junit-team/junit/wiki/Rules">JUnit @Rules</a>
 
+Required
+
     Сделать UserMeal Hibernate entity 
     Добавить поддержку LocalDateTime
     Имплементировать и протестировать JpaUserMealRepositoryImpl 
