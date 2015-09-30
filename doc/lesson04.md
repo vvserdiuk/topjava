@@ -72,7 +72,7 @@
 -  <a href="https://weblogs.java.net/blog/montanajava/archive/2014/06/17/using-java-8-datetime-classes-jpa">Using the Java 8 DateTime Classes with JPA</a>
 -  <a href="http://stackoverflow.com/questions/31965179/whats-new-in-hibernate-5">What's new in Hibernate 5?</a>
 -  <a href="https://github.com/junit-team/junit/wiki/Rules">JUnit @Rules</a>
-## 
+
     Сделать UserMeal Hibernate entity 
     Добавить поддержку LocalDateTime
     Имплементировать и протестировать JpaUserMealRepositoryImpl 
