@@ -81,7 +81,8 @@ Required
 
 Optional
 
-    Добавить в тесты UserMealServiceTest какую-нибудь функциональность @Rule (например Exception и время выполнения).
+    Добавить в тесты UserMealServiceTest какую-нибудь функциональность @Rule 
+                                                      (например Exception и время выполнения).
      
 Question / hints:
 
