@@ -81,7 +81,7 @@ Required
 
 Optional
 
-    Сделать тесты UserMealServiceTest через @Rule: 
+    Добавить в тесты UserMealServiceTest какую-нибудь функциональность @Rule: 
      
 Question / hints:
 
