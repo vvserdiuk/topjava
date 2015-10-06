@@ -82,7 +82,7 @@ Required
 Optional
 
     Добавить в тесты UserMealServiceTest какую-нибудь функциональность @Rule 
-                                                      (например Exception и время выполнения).
+                                                     (например Exception и время выполнения  каждого теста).
      
 Question / hints:
 
