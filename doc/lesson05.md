@@ -73,4 +73,4 @@ Optional
      -  достать пользователя вместе с его едой
      -  достать еду вместе с пользователем   
     
-    Перевести SpringMain и MealServlet на spring-db.xml + профили
+    Перевести SpringMain и MealServlet на spring-db.xml + профили (использовать гугл)
