@@ -66,10 +66,12 @@
             (общее в профилях можно объединять, например <beans profile="datajpa,jpa">)
      Сделать тесты всех реализаций (jdbc, jpa, datajpa) через наследование (без дублирования),
              общее из UserMealServiceTest.java и UserServiceTest.java - также вынеси в базовый класс.
+     Запустить все тесты: mvn test
+                          или в IDEA Maven Lifecycle- test (кнопку skipTest отжать)
 
 Optional     
      
-     Перевести SpringMain и MealServlet на spring-db.xml + профили (использовать гугл)
+     Перевести SpringMain и MealServlet c ImMemory (mock.xml) на DB (spring-db.xml) + профили (использовать гугл)
 
      Сделать в сервисах методы (можно сделать разные варианты): 
      -  достать пользователя вместе с его едой
