@@ -71,7 +71,7 @@
 
 Optional     
      
-     Перевести SpringMain и MealServlet c ImMemory (mock.xml) на DB (spring-db.xml) + профили (использовать гугл)
+     Перевести SpringMain и MealServlet c ImMemory(mock.xml) на DB(spring-db.xml) + профили (использовать гугл)
 
      Сделать в сервисах методы (можно сделать разные варианты): 
      -  достать пользователя вместе с его едой
