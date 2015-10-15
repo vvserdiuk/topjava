@@ -3,7 +3,7 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfkF5c1hiWmstT0prODdtZkVuNFlMZmdtN3J0OUcyY0lkT2NlVzlUMXRUUlk">Материалы урока</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUVZobXRzNWFzUW8">HW5: Spring Profiles. Spring Data JPA</a>
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVWpWeFp3U3lPTTg">1_ HW5.patch</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWjdZU1R0SHJ2QTQ">1_ HW5.patch</a>**
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFejhtNkI0RGpVd1E">HW5: Optional</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOTFzMjFvNmZPNms">2_ HW5_ Optional_ add_ profiles.patch</a>**
@@ -63,7 +63,7 @@
    -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-webappctx-special-beans-tbl">Special bean types in the WebApplicationContext</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUEctTkRSMWNvRjg">Spring Internationalization</a>
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOHFPMXdMMXVOam8">9 spring i18n.patch</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFN0dfZkxGa0drd2s">9 spring i18n.patch</a>**
 
 -  <a href="http://simplespringtutorial.com/i18n.html">Spring Internationalization or i18n</a>
 -  <a href="http://learningviacode.blogspot.ru/2012/07/reloadable-messagesources.html">Reloadable MessageSources</a>
