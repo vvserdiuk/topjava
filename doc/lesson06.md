@@ -72,7 +72,7 @@
 ## Домашнее задание HW06
     Починить InMemory и Jdbc тесты (разделить тесты для jdbc и jpa/datajpa) 
     Добавить локализацию и jsp:include в meal*.jsp
-    Починить работу meals (перенести функциональность MealServlet в RootController) 
+    Починить работу meals (перенести функциональность MealServlet в RootController/UserMealRestController) 
 
 Optional
 
