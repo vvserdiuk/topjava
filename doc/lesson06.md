@@ -71,7 +71,7 @@
 -  <a href="http://nginx.com/resources/admin-guide/serving-static-content/">nginx: Serving Static Content</a>
 
 ## Домашнее задание HW06
-    Починить InMemory и Jdbc тесты (разделить тесты для jdbc и jpa/datajpa) 
+    Починить InMemory и Jdbc тесты
     Добавить локализацию и jsp:include в meal*.jsp
     Починить работу meals (перенести функциональность MealServlet в RootController/UserMealRestController) 
 
