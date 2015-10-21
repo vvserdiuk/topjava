@@ -82,4 +82,3 @@ Optional
     Починить JpaUserServiceTest.testGetAll
     Добавить транзакционность (DataSourceTransactionManager) и доставание ролей в JdbcUserRepositoryImpl
     Добавить проверку ролей в тесты на User 
-    Добавить в приложение переключение локалей 
