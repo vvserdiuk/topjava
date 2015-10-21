@@ -50,7 +50,9 @@
    -  <a href="https://blog.42.nl/articles/spring-data-jpa-with-querydsl-repositories-made-easy/">Spring Data JPA with QueryDSL</a></li>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFajd2Y2RLQVVJWUU">Spring кэш</a>
-> В конфигурации кэш размещаем в `java.io.tmpdir`: http://stackoverflow.com/questions/1924136/environment-variable-to-control-java-io-tmpdir  
+> В конфигурации кэш размещаем в `java.io.tmpdir`:
+http://stackoverflow.com/questions/1924136/environment-variable-to-control-java-io-tmpdir  
+
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcF9KdXVtTHBCNUk">5_ spring_ cache</a>**
 
 -  <a href="http://habrahabr.ru/post/113945/">Кеширование в Spring Framework</a>
