@@ -51,7 +51,7 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFajd2Y2RLQVVJWUU">Spring кэш</a>
 > В конфигурации кэш размещаем в `java.io.tmpdir`:
-http://stackoverflow.com/questions/1924136/environment-variable-to-control-java-io-tmpdir  
+> http://stackoverflow.com/questions/1924136/environment-variable-to-control-java-io-tmpdir  
 
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcF9KdXVtTHBCNUk">5_ spring_ cache</a>**
 
