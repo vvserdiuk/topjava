@@ -22,7 +22,8 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQXhBN1pqa3FyOUE">Тестирование Spring MVC</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQ3U2NC1vNDFDTGs">8_ controller_ test.patch</a>**
-> В MockMvc добавился CharacterEncodingFilter 
+> В MockMvc добавился CharacterEncodingFilter
+
 > Закомментировали генерацию DDL 
 
 -  <a href="http://hamcrest.org/JavaHamcrest/">Hamcrest</a>
