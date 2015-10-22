@@ -79,6 +79,6 @@
 Optional
 
     Добавить еще одну роль к ADMIN (будет 2 роли: ROLE_USER, ROLE_ADMIN)
-    Починить JpaUserServiceTest.testGetAll
-    Добавить транзакционность (DataSourceTransactionManager) и доставание ролей в JdbcUserRepositoryImpl
     Добавить проверку ролей в тесты на User 
+    Починить тесты Jpa
+    Добавить транзакционность (DataSourceTransactionManager) и доставание ролей в JdbcUserRepositoryImpl
