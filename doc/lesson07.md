@@ -10,7 +10,7 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZlFsU25jOW9OeE0">3_ HW6_ meals.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFa0VDZXV6eXg3ZHM">4_ HW6_ fix_ relative_ url_ utf8.patch</a>**
 -  <a href="http://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name">Relative paths in JSP</a>
--  <a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html#mvc-redirecting-redirect-prefix">The redirect: prefix</a>
+-  <a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html#mvc-redirecting-redirect-prefix">Spring redirect: prefix</a>
 
 ## <a href="">HW6 Optional</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcHcyNnV2MXBUanM">5_ HW6_ Optional_ JPA.patch</a>**
