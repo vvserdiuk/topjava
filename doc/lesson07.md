@@ -2,7 +2,7 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfjVnUVhINEg0d09Nb3JsY2ZZZmpsSWp3bzdHMkpKMmtPTlpjckxyVzg0SWc">Материалы урока</a>
 
-## <a href="">HW6</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbUhMdTdESkpFekE">HW6</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVkpodmlWR01kaEE">1_ HW6_ fix_ tests.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWDBtUDJhcTBCM0U">2_ HW6_ jsp_ i18n.patch</a>**
 -  <a href="http://stackoverflow.com/questions/10327390/how-should-i-get-root-folder-path-in-jsp-page">Root path in JSP</a>
@@ -12,7 +12,7 @@
 -  <a href="http://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name">Relative paths in JSP</a>
 -  <a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html#mvc-redirecting-redirect-prefix">Spring redirect: prefix</a>
 
-## <a href="">HW6 Optional</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaXViWkkwYkF0eW8">HW6 Optional</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcHcyNnV2MXBUanM">5_ HW6_ Optional_ JPA.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYXh6ODZkSEtzWTQ">6_ HW6_ Optional_ JDBC.patch</a>**
 -  <a href="http://easy-code.ru/lesson/local-anonymous-nested-classes-java">Локальные классы</a>
