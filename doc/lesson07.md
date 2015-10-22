@@ -67,19 +67,20 @@
 -  <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">Написание HTTP-запросов с помощью Curl</a> 
 (для Windows можно использовать Git Bash)
 
--  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
 ## Домашнее задание HW07
+-  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
+-  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config">Кастомный Spring конвертор</a>
+
 
      Добавить тесты контроллеров: 
               UserMealControllerTest (mealList.jsp) и ResourceControllerTest (style.css)
-    Реализовать UserMealRestController 
+     Реализовать UserMealRestController 
            (LocalDateTime передавать в формате ISO_LOCAL_DATE_TIME, например '2011-12-03T10:15:30')
-    Протестировать UserMealRestController через SoapUi или curl  
-    Сделать тесты и UserMealRestControllerTest 
+     Протестировать UserMealRestController через SoapUi или curl  
+     Сделать тесты и UserMealRestControllerTest 
 
--  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config">Кастомный Spring конвертор</a>
 Optional
-    
+
      Написать для LocalDateTime свой конвертор
      Добавить в приложение переключение локалей 
 
