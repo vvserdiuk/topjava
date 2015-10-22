@@ -57,6 +57,7 @@
 
 - Решение проблемы с UTF-8 в StringHttpMessageConverter
 -  <a href="http://www.soapui.org/">SoapUi</a>
+
 >  Импортировать проект в SoapUi из config\Topjava-soapui-project.xml
 
 >   Response смотреть в формате JSON.
