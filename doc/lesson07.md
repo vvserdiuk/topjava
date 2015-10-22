@@ -69,11 +69,12 @@
 
 ## Домашнее задание HW07
 
-    Добавить ResourceControllerTest на получение style.css
+    Добавить тесты контроллеров: 
+              UserMealControllerTest (mealList.jsp) и ResourceControllerTest (style.css)
     Реализовать UserMealRestController 
            (LocalDateTime передавать в формате ISO_LOCAL_DATE_TIME, например '2011-12-03T10:15:30')
     Протестировать UserMealRestController через SoapUi или curl  
-    Сделать тесты UserMealControllerTest (mealList) и UserMealRestControllerTest 
+    Сделать тесты и UserMealRestControllerTest 
 
 Optional
 
