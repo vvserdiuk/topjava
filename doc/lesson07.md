@@ -68,9 +68,6 @@
 (для Windows можно использовать Git Bash)
 
 ## Домашнее задание HW07
--  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
--  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config">Кастомный Spring конвертор</a>
-
 
      Добавить тесты контроллеров: 
               UserMealControllerTest (mealList.jsp) и ResourceControllerTest (style.css)
@@ -83,5 +80,8 @@ Optional
 
      Написать для LocalDateTime свой конвертор
      Добавить в приложение переключение локалей 
+
+-  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
+-  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config">Кастомный Spring конвертор</a>
 
 ## <a href="https://gitter.im/JavaOPs/topjava/Lesson07">Gitter форум</a>
