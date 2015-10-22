@@ -67,8 +67,8 @@
 -  <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">Написание HTTP-запросов с помощью Curl</a> 
 (для Windows можно использовать Git Bash)
 
-## Домашнее задание HW07
 -  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
+## Домашнее задание HW07
 
      Добавить тесты контроллеров: 
               UserMealControllerTest (mealList.jsp) и ResourceControllerTest (style.css)
@@ -77,8 +77,8 @@
     Протестировать UserMealRestController через SoapUi или curl  
     Сделать тесты и UserMealRestControllerTest 
 
-Optional
 -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config">Кастомный Spring конвертор</a>
+Optional
     
      Написать для LocalDateTime свой конвертор
      Добавить в приложение переключение локалей 
