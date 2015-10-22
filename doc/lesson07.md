@@ -73,7 +73,7 @@
     Реализовать UserMealRestController 
            (LocalDateTime передавать в формате ISO_LOCAL_DATE_TIME, например '2011-12-03T10:15:30')
     Протестировать UserMealRestController через SoapUi или curl  
-    Сделать тесты UserMealRestControllerTest
+    Сделать тесты UserMealControllerTest (mealList) и UserMealRestControllerTest 
 
 Optional
 
