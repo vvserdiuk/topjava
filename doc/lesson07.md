@@ -67,8 +67,9 @@
 -  <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">Написание HTTP-запросов с помощью Curl</a> 
 (для Windows можно использовать Git Bash)
 
-## Домашнее задание HW07
+## Домашнее задание HW08
 
+     Транзакционность в профиле jdbc включена, но отсутствует в JdbcUserRepositoryImpl: добавьте.
      Добавить тесты контроллеров: 
               UserMealControllerTest (mealList.jsp) и ResourceControllerTest (style.css)
      Реализовать UserMealRestController 
