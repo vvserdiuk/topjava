@@ -79,7 +79,7 @@
 Optional
 
      Протестировать UserMealRestController через SoapUi или curl  
-     Добавить в приложение переключение локалей 
+     Написать для LocalDateTime свой конвертор
 
 Ресурсы
 
