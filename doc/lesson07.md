@@ -74,12 +74,11 @@
               UserMealControllerTest (mealList.jsp) и ResourceControllerTest (style.css)
      Реализовать UserMealRestController 
            (LocalDateTime передавать в формате ISO_LOCAL_DATE_TIME, например '2011-12-03T10:15:30')
-     Протестировать UserMealRestController через SoapUi или curl  
-     Сделать тесты и UserMealRestControllerTest 
+     Реализовать UserMealRestControllerTest 
 
 Optional
 
-     Написать для LocalDateTime свой конвертор
+     Протестировать UserMealRestController через SoapUi или curl  
      Добавить в приложение переключение локалей 
 
 Ресурсы
