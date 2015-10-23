@@ -78,14 +78,15 @@
 
 Optional
 
-     Протестировать UserMealRestController через SoapUi или curl  
+     Протестировать UserMealRestController через SoapUi или curl. Сделать WADL.  
      Написать для LocalDateTime свой конвертор
 
 Ресурсы
 
 -  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
 -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config">Кастомный Spring конвертор</a>
--  <a href="http://www.mkyong.com/spring-mvc/spring-mvc-internationalization-example">Spring MVC internationalization example</a>
--  <a href="http://www.concretepage.com/spring-4/spring-4-mvc-internationalization-i18n-and-localization-l10n-annotation-example">Spring 4 MVC Internationalization (i18n) and Localization (l10n) Annotation Example</a>
+-  <a href="https://ru.wikipedia.org/wiki/WADL">Wiki WADL</a>
+-  <a href="http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html">http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html</a>
+-  <a href="http://www.nurkiewicz.com/2012/02/automatically-generating-wadl-in-spring.html">Automatically generating WADL in Spring MVC REST application</a>
 
 ## <a href="https://gitter.im/JavaOPs/topjava/Lesson07">Gitter форум</a>
