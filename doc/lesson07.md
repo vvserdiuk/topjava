@@ -69,7 +69,7 @@
 
 ## Домашнее задание HW08
 
-     Транзакционность в профиле jdbc включена, но отсутствует в JdbcUserRepositoryImpl: добавьте.
+     Транзакционность в профиле jdbc включена, но отсутствует в реализации Jdbc: добавьте.
      Добавить тесты контроллеров: 
               UserMealControllerTest (mealList.jsp) и ResourceControllerTest (style.css)
      Реализовать UserMealRestController 
