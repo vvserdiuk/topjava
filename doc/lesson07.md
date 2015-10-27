@@ -79,7 +79,7 @@
 Optional
 
      Протестировать UserMealRestController через SoapUi или curl. Сделать WADL.  
-     Написать для LocalDateTime свой конвертор
+     Заменить @DATETIMEFORMAT на свой LocalDateTime конвертор
 
 Ресурсы
 
