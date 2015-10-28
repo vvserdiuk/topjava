@@ -72,6 +72,7 @@
      Транзакционность в профиле jdbc включена, но отсутствует в реализации Jdbc: добавьте.
      Добавить тесты контроллеров: 
            UserMealControllerTest для mealList.jsp и ResourceControllerTest для style.css (status и ContentType)
+           Внимание: при тестировании контроллеров "/" в конце url, если он не заканчивается id, объязателен.
      Реализовать UserMealRestController и протестировать его с UserMealRestControllerTest
            (LocalDateTime передавать в формате ISO_LOCAL_DATE_TIME, например '2011-12-03T10:15:30')
 
