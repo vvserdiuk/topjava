@@ -86,6 +86,6 @@ Optional
 -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-config-conversion">Кастомный Spring конвертор</a>
 -  <a href="https://ru.wikipedia.org/wiki/WADL">Wiki WADL</a>
 -  <a href="http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html">Gentle introduction to WADL (in Java)</a>
--  <a href="http://screencast.com/t/pmdjehLkz4">Gjkexbnm WADL из SOAP UI</a>
+-  <a href="http://screencast.com/t/pmdjehLkz4">Получить WADL из SOAP UI</a>
 
 ## <a href="https://gitter.im/JavaOPs/topjava/Lesson07">Gitter форум</a>
