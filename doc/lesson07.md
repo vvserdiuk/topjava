@@ -83,7 +83,7 @@ Optional
 Ресурсы
 
 -  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
--  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config">Кастомный Spring конвертор</a>
+-  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-config-conversion">Кастомный Spring конвертор</a>
 -  <a href="https://ru.wikipedia.org/wiki/WADL">Wiki WADL</a>
 -  <a href="http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html">Gentle introduction to WADL (in Java)</a>
 -  <a href="http://www.nurkiewicz.com/2012/02/automatically-generating-wadl-in-spring.html">Automatically generating WADL in Spring MVC REST application</a>
