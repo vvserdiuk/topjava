@@ -32,8 +32,8 @@
 -  <a href="http://stackoverflow.com/questions/7062775/is-jquery-a-javascript-library-or-framework">Is jquery a javascript library or framework</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNXJmeTZBbmduaU0">Bootstrap</a>
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcHZUd1ZUOW83TlU">7_ bootstrap.patch</a>**
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTVduaXhPWnl5T0U">icon-meal.png</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeHp5dFJyZFZxcWs">7_ bootstrap.patch</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbHhFdWl4RzhndU0">icon-meal.png</a>**
 > В картинки патч не берутся, положить вручную icon-meal.png в \src\main\webapp\resources\images\icon-meal.png
 
 -  <a href="http://getbootstrap.com/getting-started/">Подключаем Bootstrap</a>. Форматируем JSP.
