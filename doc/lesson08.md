@@ -8,7 +8,7 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUnBKanNVR1NrSVk">3_ HW7_ rest_ controller.patch</a>**
 -  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
 
-## <a href="">HW7_ Optional</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFV3dpWVk0alJmQXc">HW7_ Optional</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQks5dkFTTFpvSmc">4_ HW7_ formatters.patch</a>**
 -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-config-conversion">Кастомный Spring конвертор и форматтер</a>
 -  <a href="http://stackoverflow.com/questions/13048368/difference-between-spring-mvc-formatters-and-converters">Difference between Spring MVC formatters and converters</a>
