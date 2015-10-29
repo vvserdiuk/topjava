@@ -22,6 +22,7 @@
 -  <a href="https://ru.wikipedia.org/wiki/Document_Object_Model">Document Object Model (DOM)</a>
 -  <a href="https://ru.wikipedia.org/wiki/JQuery">jQuery</a>
 -  <a href="http://dandelion.github.io">Dandelion</a>, <a href="https://github.com/spring-projects/spring-petclinic">Spring Pet Clinic</a>
+-  <a href="https://www.datatables.net/">DataTables</a>
 
         УБРАЛ из проекта обертку к datatables. Причины:
           не встречал нигде, кроме Spring Pet Clinic;
@@ -29,7 +30,6 @@
           поддержка работы с datatables через Dandelion оказалось гораздо более трудоемкое, 
           чем работа с плагином напрямую. 
    
--  <a href="https://www.datatables.net/">DataTables</a>
 -  <a href="http://stackoverflow.com/questions/7062775/is-jquery-a-javascript-library-or-framework">Is jquery a javascript library or framework</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNXJmeTZBbmduaU0">Bootstrap</a>
