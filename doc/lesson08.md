@@ -33,7 +33,7 @@
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNXJmeTZBbmduaU0">Bootstrap</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeHp5dFJyZFZxcWs">7_ bootstrap.patch</a>**
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbHhFdWl4RzhndU0">icon-meal.png</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTVduaXhPWnl5T0U">icon-meal.png</a>**
 > В картинки патч не берутся, положить вручную icon-meal.png в \src\main\webapp\resources\images\icon-meal.png
 
 -  <a href="http://getbootstrap.com/getting-started/">Подключаем Bootstrap</a>. Форматируем JSP.
@@ -44,7 +44,7 @@
 >  JSP полезны, если надо с сервера отдать статический html с серверной логикой (условия, циклы), сформированный на основе модели. 
 Для динамической отрисовки таблицы мы будем использовать REST и JSON на 9м уроке (работа с datatables через Ajax).
 
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcVFQUW5sd3REMm8">8_ ajax_ datatables.patch</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbHhFdWl4RzhndU0">8_ ajax_ datatables.patch</a>**
 -  <a href="https://ru.wikipedia.org/wiki/AJAX">AJAX</a>. 
 -  Событие $(document).ready. Запросы ajax. Обратный вызов (Callback).
 -  <a href="http://anton.shevchuk.name/jquery/">jQuery для всех</a>.
