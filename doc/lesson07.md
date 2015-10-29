@@ -92,7 +92,7 @@ Optional
 -  <a href="https://ru.wikipedia.org/wiki/WADL">Wiki WADL</a>
 -  <a href="http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html">Gentle introduction to WADL (in Java)</a>
 -  <a href="http://screencast.com/t/pmdjehLkz4">Получить WADL из SOAP UI</a>
--  <a href="http://stackoverflow.com/questions/12405911/how-can-i-generate-wadl-for-rest-services">Generate WADL for ReST services</a>
+-  <a href="http://stackoverflow.com/questions/12405911/how-can-i-generate-wadl-for-rest-services">Generate WADL for REST services</a>
 -  <a href="http://habrahabr.ru/post/140181/">Основы JAX-RS</a>
 
 ## <a href="https://gitter.im/JavaOPs/topjava/Lesson07">Gitter форум</a>
