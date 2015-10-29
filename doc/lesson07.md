@@ -2,7 +2,7 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfjVnUVhINEg0d09Nb3JsY2ZZZmpsSWp3bzdHMkpKMmtPTlpjckxyVzg0SWc">Материалы урока</a>
 
-## <a href="">HW6</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbUhMdTdESkpFekE">HW6</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVkpodmlWR01kaEE">1_ HW6_ fix_ tests.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWDBtUDJhcTBCM0U">2_ HW6_ jsp_ i18n.patch</a>**
 -  <a href="http://stackoverflow.com/questions/10327390/how-should-i-get-root-folder-path-in-jsp-page">Root path in JSP</a>
@@ -10,9 +10,9 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZlFsU25jOW9OeE0">3_ HW6_ meals.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFa0VDZXV6eXg3ZHM">4_ HW6_ fix_ relative_ url_ utf8.patch</a>**
 -  <a href="http://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name">Relative paths in JSP</a>
--  <a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html#mvc-redirecting-redirect-prefix">The redirect: prefix</a>
+-  <a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html#mvc-redirecting-redirect-prefix">Spring redirect: prefix</a>
 
-## <a href="">HW6 Optional</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaXViWkkwYkF0eW8">HW6 Optional</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcHcyNnV2MXBUanM">5_ HW6_ Optional_ JPA.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYXh6ODZkSEtzWTQ">6_ HW6_ Optional_ JDBC.patch</a>**
 -  <a href="http://easy-code.ru/lesson/local-anonymous-nested-classes-java">Локальные классы</a>
@@ -22,7 +22,9 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQXhBN1pqa3FyOUE">Тестирование Spring MVC</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQ3U2NC1vNDFDTGs">8_ controller_ test.patch</a>**
-> В MockMvc добавился CharacterEncodingFilter 
+
+> В MockMvc добавился CharacterEncodingFilter
+
 > Закомментировали генерацию DDL 
 
 -  <a href="http://hamcrest.org/JavaHamcrest/">Hamcrest</a>
@@ -55,6 +57,7 @@
 
 - Решение проблемы с UTF-8 в StringHttpMessageConverter
 -  <a href="http://www.soapui.org/">SoapUi</a>
+
 >  Импортировать проект в SoapUi из config\Topjava-soapui-project.xml
 
 >   Response смотреть в формате JSON.
@@ -64,16 +67,26 @@
 -  <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">Написание HTTP-запросов с помощью Curl</a> 
 (для Windows можно использовать Git Bash)
 
-## Домашнее задание HW07
+## Домашнее задание HW08
 
-    Добавить ResourceControllerTest на получение style.css
-    Реализовать UserMealRestController (LocalDateTime передавать в формате ISO_LOCAL_DATE_TIME, например '2011-12-03T10:15:30')
-    Протестировать UserMealRestController через SoapUi или curl  
-    Сделать тесты UserMealRestControllerTest
+     Транзакционность в профиле jdbc включена, но отсутствует в реализации Jdbc: добавьте.
+     Добавить тесты контроллеров: 
+           UserMealControllerTest для mealList.jsp и ResourceControllerTest для style.css (status и ContentType)
+           Внимание: при тестировании контроллеров "/" в конце url, если он не заканчивается id, объязателен.
+     Реализовать UserMealRestController и протестировать его с UserMealRestControllerTest
+           (LocalDateTime передавать в формате ISO_LOCAL_DATE_TIME, например '2011-12-03T10:15:30')
 
 Optional
 
-    TODO
-    Добавить в приложение переключение локалей 
+     Заменить @DATETIMEFORMAT на свой LocalDateTime конвертор или форматтер.
+     Протестировать UserMealRestController через SoapUi или curl. Сделать WADL.  
+
+Ресурсы
+
+-  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
+-  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-config-conversion">Кастомный Spring конвертор</a>
+-  <a href="https://ru.wikipedia.org/wiki/WADL">Wiki WADL</a>
+-  <a href="http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html">Gentle introduction to WADL (in Java)</a>
+-  <a href="http://screencast.com/t/pmdjehLkz4">Получить WADL из SOAP UI</a>
 
 ## <a href="https://gitter.im/JavaOPs/topjava/Lesson07">Gitter форум</a>
