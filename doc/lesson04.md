@@ -52,7 +52,7 @@
 
 -  Ресурсы:
    - <a href="http://www.youtube.com/watch?v=YzOTZTt-PR0">Николай Алименков — Босиком по граблям Hibernate</a>
-   - <a hre="http://habrahabr.ru/post/265061/">JPA и Hibernate в вопросах и ответах</a>
+   - <a href="http://habrahabr.ru/post/265061/">JPA и Hibernate в вопросах и ответах</a>
    - <a href="http://stackoverflow.com/questions/8994864/how-would-i-specify-a-hibernate-pattern-annotation-using-a-regular-expression">Validate by RegExp</a>
    - <a href="http://en.wikibooks.org/wiki/Java_Persistence">Java Persistence</a>
    - <a href="http://hibernate.org/">Hibernate</a>
