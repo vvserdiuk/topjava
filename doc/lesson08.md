@@ -25,7 +25,9 @@
           чем работа с плагином напрямую. 
    
 -  Подключение веб ресурсов. <a href="http://www.webjars.org/">WebJars</a>.
+-  <a href="http://www.jamesward.com/2012/04/25/introducing-webjars-web-libraries-as-managed-dependencies">Introducing WebJars</a>
 -  <a href="https://ru.wikipedia.org/wiki/Document_Object_Model">Document Object Model (DOM)</a>
+-  <a href="https://css-tricks.com/dom/">What is the DOM?</a>
 -  <a href="https://ru.wikipedia.org/wiki/JQuery">jQuery</a>
 -  <a href="http://dandelion.github.io">Dandelion</a>, <a href="https://github.com/spring-projects/spring-petclinic">Spring Pet Clinic</a>
 -  <a href="https://www.datatables.net/">DataTables</a>
