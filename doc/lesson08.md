@@ -92,7 +92,7 @@ Optional.
 
     Реализовать enable/disable User через checkbox в userList.jsp с сохранением в DB
     Перейти на новый dataTables API (https://www.datatables.net/reference/api/)
-    Избавиться от дублирования id="user.id в таблицах users и meals 
+    Избавиться от дублирования id="${user.id}" в строках таблиц users и meals 
              (id должно быть уникальным: http://pyramidin.narod.ru/html401/global.html#h-7.5.2)
     
 ## <a href="https://gitter.im/JavaOPs/topjava/Lesson08">Gitter форум</a>
