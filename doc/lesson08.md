@@ -93,6 +93,7 @@ Optional.
 - <a href="http://stackoverflow.com/questions/25207147/datatable-vs-datatable-why-is-there-a-difference-and-how-do-i-make-them-w">dataTable() vs. DataTable()</a>
 
 
+
     Реализовать enable/disable User через checkbox в userList.jsp с сохранением в DB
     Перевести работы фильтра на AJAX (при обновлении данных таблицы учитывать поля формы фильтрации)
     Перейти на новый dataTables API (https://www.datatables.net/reference/api/)
