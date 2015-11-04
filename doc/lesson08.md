@@ -99,5 +99,6 @@ Optional.
 Ресурсы
 
 - <a href="http://stackoverflow.com/questions/25207147/datatable-vs-datatable-why-is-there-a-difference-and-how-do-i-make-them-w">dataTable() vs. DataTable()</a>
+- <a href="https://www.datatables.net/reference/api/">dataTables API</a>
 
 ## <a href="https://gitter.im/JavaOPs/topjava/Lesson08">Gitter форум</a>
