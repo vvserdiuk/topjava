@@ -36,7 +36,7 @@
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNXJmeTZBbmduaU0">Bootstrap</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeHp5dFJyZFZxcWs">7_ bootstrap.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTVduaXhPWnl5T0U">icon-meal.png</a>**
-> В картинки патч не берутся, положить вручную icon-meal.png в \src\main\webapp\resources\images\icon-meal.png
+> В патч картинки не берутся, положить вручную icon-meal.png в \src\main\webapp\resources\images\icon-meal.png
 
 -  <a href="http://getbootstrap.com/getting-started/">Подключаем Bootstrap</a>. Форматируем JSP.
 -  <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/">Twitter Bootstrap Tutorial</a>
