@@ -28,17 +28,38 @@
 -  <a href="https://spring.io/blog/2012/08/29/integrating-spring-mvc-with-jquery-for-validation-rules">Валидация формы по AJAX.</a>
 -  <a href="http://stackoverflow.com/questions/14730329/jpa-2-0-exception-to-use-javax-validation-package-in-jpa-2-0#answer-17142416">JSR-303, 349</a>
 
-## TODO Security  
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcW1qeTVFdS1BdHM">Перевод DataTables на Ajax</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNmJsbHVmN25IQ0E">7_ datatable_ via_ ajax.patch</a>**
+
+
+      Добавился рефакторинг DataTable API в updateTableByData. Попровил UserControllerTest.
+
+-  <a href="http://legacy.datatables.net/usage/options">DataTables Options</a>
+
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUmhUTms1WnhTeHc">Форма логина / логаут.</a>
+
+    Вопросы:
+      Почему при логине как admin еда отдаются для user?
+      Почему при логине как user не отображается список пользователей?
+
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUjlaRVRia2pKR2c">8_ min_ form_ login.patch</a>**
+-  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-minimal">Минимальный form-login</a>
+-  <a href="http://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html#m3to4-xmlnamespace-form-login">Migrating &lt;form-login&gt;</a>
+
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSW5NNzBob2dSTGM">9_ jsp_ form_ login.patch</a>**
+-  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-form-and-basic">Собственный form-login</a>
+
+## TODO Security
 
 ## Домашнее задание HW9
 
     Реализовать для meal Binding/ Update/ Validation.
     Перевести mealList.jsp на работу по ajax. Стиль записи таблицы сделать в зависимости от exceeded.
-    
+
 Optional
 
     Подключить datetime-picker
-    
+
 Ресурсы
 
 - <a href="http://xdsoft.net/jqplugins/datetimepicker/">DateTimePicker jQuery plugin</a>
