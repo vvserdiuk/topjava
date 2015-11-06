@@ -29,7 +29,7 @@
 -  <a href="http://stackoverflow.com/questions/14730329/jpa-2-0-exception-to-use-javax-validation-package-in-jpa-2-0#answer-17142416">JSR-303, 349</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcW1qeTVFdS1BdHM">Перевод DataTables на Ajax</a>
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFX0ZUQVY3bzU2Rk0">7_ datatable_ via_ ajax.patch</a>**
->  Добавился рефакторинг DataTable API в updateTableByData
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNmJsbHVmN25IQ0E">7_ datatable_ via_ ajax.patch</a>**
+>  Добавился рефакторинг DataTable API в updateTableByData. Попровил UserControllerTest.
 
 -  <a href="http://legacy.datatables.net/usage/options">DataTables Options</a>
