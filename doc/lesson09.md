@@ -20,3 +20,16 @@
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd2ZvcS1pSjdMQlU">Реализация update</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMUtaRVBNcHpRUjg">5_ update.patch</a>**
+
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFLXp5MTFDMEY5WFE">Spring Validation</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZmtsejMwLVNtSEE">6_ validation.patch</a>**
+-  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#validation-beanvalidation">Spring Validation.</a>
+-  <a href="http://beanvalidation.org/">Bean Validation</a>
+-  <a href="https://spring.io/blog/2012/08/29/integrating-spring-mvc-with-jquery-for-validation-rules">Валидация формы по AJAX.</a>
+-  <a href="http://stackoverflow.com/questions/14730329/jpa-2-0-exception-to-use-javax-validation-package-in-jpa-2-0#answer-17142416">JSR-303, 349</a>
+
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcW1qeTVFdS1BdHM">Перевод DataTables на Ajax</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFX0ZUQVY3bzU2Rk0">7_ datatable_ via_ ajax.patch</a>**
+>  Добавился рефакторинг DataTable API в updateTableByData
+
+-  <a href="http://legacy.datatables.net/usage/options">DataTables Options</a>
