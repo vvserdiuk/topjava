@@ -4,8 +4,8 @@
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFb0JKbElkT000amM">HW8</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFR3I5UjFGYTRYdTA">1_ HW8.patch</a>**
-- <a href="http://getbootstrap.com/css/#description">Bootstrap description</a>"
-- <a href="http://getbootstrap.com/css/#forms">Bootstrap forms</a>"
+- <a href="http://getbootstrap.com/css/#description">Bootstrap description</a>
+- <a href="http://getbootstrap.com/css/#forms">Bootstrap forms</a>
 
 ###  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFV0VKY2FGbndGMTQ">HW8 Optional (enable/disable user)</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT0M1LTR0WUV5cTQ">2_ HW8_ enable_ disable.patch</a>**
