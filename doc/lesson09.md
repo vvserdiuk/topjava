@@ -41,6 +41,7 @@
     Вопросы:
       Почему при логине как admin еда отдаются для user?
       Почему при логине как user не отображается список пользователей?
+      Почему еда не редактируется и не удаляется?
 
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUjlaRVRia2pKR2c">8_ min_ form_ login.patch</a>**
 -  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-minimal">Минимальный form-login</a>
@@ -49,12 +50,33 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSW5NNzBob2dSTGM">9_ jsp_ form_ login.patch</a>**
 -  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-form-and-basic">Собственный form-login</a>
 
-## TODO Security
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYTA4aVN4bWxzbEU">Реализация собственного провайдера авторицазии.</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd2tLTVE4TDE5V3c">10_ auth_ via_ user_ service.patch</a>**
+
+   Изменения в проекте: вместо `LoggedUser implements UserDetails` сделал `LoggedUser extends org.springframework.security.core.userdetails.User`
+
+-  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#userdetailsservice-implementations">UserDetailsService Implementations</a>
+
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT2Qya2V4N0kzWWM">Принцип работы Spring Security. Проксирование.</a>
+-  <a href="http://www.spring-source.ru/articles.php?type=manual&theme=articles&docs=article_07">Принцип работы Spring Security</a>
+-  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/aop.html#aop-proxying">Типы проксирования</a>
+-  <a href="http://samolisov.blogspot.ru/2010/04/proxy-java.html">Dynamic Proxy API</a>
+-  <a href="http://stackoverflow.com/questions/13977093/how-to-use-jparepositories-with-proxy-target-class-true/25543659#25543659">Конфликт проксирования Data Repository</a>
+-  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#filter-stack">Security фильтры</a>
+
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFU3hMR0o4eGNoUmc">Spring Security Test</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcFhJNnNPZHMtUE0">11 spring security test.patch</a>**
+
+-  <a href="http://docs.spring.io/spring-security/site/docs/4.0.x/reference/htmlsingle/#test">Spring Security Test</a></h3>
+-  <a href="http://docs.spring.io/spring-security/site/docs/4.0.x/reference/htmlsingle/#test-mockmvc">Интеграция со Spring MVC Test</a>
+-  <a href="http://docs.spring.io/spring-security/site/docs/4.0.x/reference/htmlsingle/#testing-http-basic-authentication">HttpBasic авторизация</a>
+-  <a href="http://habrahabr.ru/post/171911/">Тестирование контроллеров с помощью MockMvc (без spring-security-test)</a>
 
 ## Домашнее задание HW10
 
     Реализовать для meal Binding/ Update/ Validation.
     Перевести mealList.jsp на работу по ajax. Стиль записи таблицы сделать в зависимости от exceeded.
+    Починить meals тесты
 
 Optional
 
