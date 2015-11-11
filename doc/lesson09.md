@@ -79,7 +79,7 @@
 -  <a href="http://stackoverflow.com/questions/595872/under-what-conditions-is-a-jsessionid-created">Under what conditions is a JSESSIONID created?</a>
 -  <a href="http://halyph.com/2014/08/how-to-disable-tomcat-session.html">Tomcat Session Serialization</a>
 
-## Домашнее задание HW10
+## Домашнее задание HW9
 
     Реализовать для meal Binding/ Update/ Validation.
     Перевести mealList.jsp на работу по ajax. Стиль записи таблицы сделать в зависимости от exceeded.
