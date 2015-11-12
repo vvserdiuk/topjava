@@ -20,7 +20,7 @@
 
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeVZCNGk2MG10UTA">06_ profile_ jsptag.patch</a>**
 
->  ProfileRestController.update(user) изменился на userTo (нельзя, например, изменять себе роли)
+>  ProfileRestController.update(user) изменился на userTo (нельзя, например, изменять себе роли).
 
 >  Заметьте, что в ProfileRestControllerTest.testUpdate getByEmail вызываем с mail.toLowerCase().
 
