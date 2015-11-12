@@ -17,19 +17,15 @@
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFc1JMTE4xVG0zN0U">Interceptors. Редактирование профиля. JSP tag files.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSXlFY2t6aU8tUGc">05_ interceptor.patch</a>**
 -  Добавляем профиль. <a href="http://www.mkyong.com/spring-mvc/spring-mvc-handler-interceptors-example/">Spring interceptors</a>.
-
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeVZCNGk2MG10UTA">06_ profile_ jsptag.patch</a>**
-
 >  ProfileRestController.update(user) изменился на userTo (нельзя, например, изменять себе роли).
 
 >  Заметьте, что в ProfileRestControllerTest.testUpdate getByEmail вызываем с mail.toLowerCase().
-
 -  <a href="http://www.techrepublic.com/article/an-introduction-to-jsp-20s-tag-files/">Делаем jsp tag для ввода поля формы</a>.
 -  <a href="http://www.codejava.net/frameworks/spring/spring-mvc-form-validation-example-with-bean-validation-api">Spring MVC Form Validation</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNWpUNktMeGJURmM">Форма регистрации.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNWhqMUJ4ZEVHZUU">07_ registration.patch</a>**
-
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODlhSTZnLXZzaHc">Обработка исключений в Spring.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOXNyczJQbVQ2Vjg">08_ not_ found_ 404.patch</a>**
 -  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc#using-http-status-codes">Используем HTTP status code</a>
@@ -38,12 +34,9 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbW9DeHNkZzRQZGM">9_ global_ exception.patch</a>**
 -  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc#global-exception-handling">Global Exception Handling</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMm5vTk9SVGc0YWM">10_ controller_ based_ exception.patch</a>**
-
 >  Т.к Rest и Ajax контроллеры уже отнаследованы от абстрактных контроллеров, сделал "подмешивание" в них ExceptionInfoHandler с помощью default методов интерфейса.
-
 -  <a href="https://ru.wikipedia.org/wiki/Примесь_(программирование)">Примесь (mixin)</a>
 -  <a href="https://kerflyn.wordpress.com/2012/07/09/java-8-now-you-have-mixins/">Mixin в Java 8</a>
-
 -  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc#errors-and-rest">Сериализация Exception в JSON</a>
 -  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc#controller-based-exception-handling">Exception Handling на уровне контроллера</a>
 
