@@ -28,6 +28,7 @@
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNWpUNktMeGJURmM">Форма регистрации.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNWhqMUJ4ZEVHZUU">07_ registration.patch</a>**
+
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODlhSTZnLXZzaHc">Обработка исключений в Spring.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOXNyczJQbVQ2Vjg">08_ not_ found_ 404.patch</a>**
 -  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc#using-http-status-codes">Используем HTTP status code</a>
@@ -71,3 +72,7 @@
 Optional.
 
     Сделать в приложении выбор локали
+
+Ресурсы:
+-  <a href="http://www.mkyong.com/spring-mvc/spring-mvc-internationalization-example">Spring MVC internationalization sample</a>
+-  <a href="http://www.concretepage.com/spring-4/spring-4-mvc-internationalization-i18n-and-localization-l10n-annotation-example">Spring 4 MVC Internationalization</a>
