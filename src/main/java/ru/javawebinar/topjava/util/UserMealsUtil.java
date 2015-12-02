@@ -40,7 +40,7 @@ public class UserMealsUtil {
             // My decision
             if (dayToCalories.containsKey(currentDay)){
                 Integer newValue = dayToCalories.get(currentDay) + meal.getCalories();
-                dayToCalories.replace(currentDay, newValue);
+                dayToCalories.put(currentDay, newValue);
             }
             else {
                 dayToCalories.put(currentDay, meal.getCalories());
