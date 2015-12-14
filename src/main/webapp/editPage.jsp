@@ -38,11 +38,11 @@
     <form action="meals" method="post">
         <tr>
             <input type="hidden" name="id" value="${meal.id}">
-            <input type="hidden" name="action" value="add">
+            <input type="hidden" name="action" value="save">
             <td><input type="datetime-local" value="${meal.dateTime}" name="datetime"></td>
             <td><input type="text" value="${meal.description}" name="description"></td>
             <td><input type="text" value="${meal.calories}" name="calories"></td>
-            <td><input type="submit"  value="edit"> </td>
+            <td><input type="submit"  value="save"> </td>
         </tr>
     </form>
 </table>

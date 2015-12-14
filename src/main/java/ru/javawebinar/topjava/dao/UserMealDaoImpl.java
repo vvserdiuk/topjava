@@ -1,8 +1,6 @@
 package ru.javawebinar.topjava.dao;
 
-import ru.javawebinar.topjava.LoggerWrapper;
 import ru.javawebinar.topjava.model.UserMeal;
-import ru.javawebinar.topjava.util.UserMealsUtil;
 
 import java.time.LocalDateTime;
 import java.time.Month;
@@ -10,7 +8,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by vvserdiuk on 05.12.2015.
@@ -21,7 +18,6 @@ public class UserMealDaoImpl implements UserMealDao {
 
 
     {
-//        UserMealsUtil.mealList.forEach(um -> dbMock.put(um.getId(), um));
         add(new UserMeal(LocalDateTime.of(2015, Month.MAY, 30, 10, 0), "Завтрак", 500));
         add(new UserMeal(LocalDateTime.of(2015, Month.MAY, 30, 13, 0), "Обед", 1000));
         add(new UserMeal(LocalDateTime.of(2015, Month.MAY, 30, 20, 0), "Ужин", 500));
@@ -49,9 +45,7 @@ public class UserMealDaoImpl implements UserMealDao {
 
     @Override
     public void edit(int id, UserMeal userMeal) {
-        System.out.println("!!!!" + id);
-        dbMock.forEach((k, v) -> System.out.println(k));
-        dbMock.replace(id, userMeal);
+        dbMock.put(id, userMeal);
     }
 
     @Override

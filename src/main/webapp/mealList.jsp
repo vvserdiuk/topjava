@@ -33,6 +33,7 @@
         <th>Calories</th>
         <th colspan="2"></th>
     </tr>
+
     <c:forEach items="${meals}" var="meal">
         <jsp:useBean id="meal" scope="page" type="ru.javawebinar.topjava.model.UserMealWithExceed"/>
         <tr>
@@ -59,7 +60,7 @@
     <form action="meals" method="post">
         <tr>
             <input type="hidden" name="action" value="add">
-            <td><input type="datetime-local" value="2015-01-02T11:42:13.510" name="datetime"></td>
+            <td><input type="datetime-local" value="<%= java.time.LocalDateTime.now()%>" name="datetime"></td>
             <td><input type="text" name="description"></td>
             <td><input type="text" name="calories"></td>
             <td><input type="submit"  value="add"> </td>
