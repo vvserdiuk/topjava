@@ -7,16 +7,31 @@ import java.time.LocalDateTime;
  * 11.01.2015.
  */
 public class UserMeal {
+    protected Integer id;
+
     protected final LocalDateTime dateTime;
 
     protected final String description;
 
     protected final int calories;
 
-    public UserMeal(LocalDateTime dateTime, String description, int calories) {
+    protected final int userId;
+
+
+    public UserMeal(LocalDateTime dateTime, String description, int calories, int userId) {
+        this(null, dateTime, description, calories, userId);
+    }
+
+    public UserMeal(Integer id, LocalDateTime dateTime, String description, int calories, int userId) {
+        this.id = id;
         this.dateTime = dateTime;
         this.description = description;
         this.calories = calories;
+        this.userId = userId;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public LocalDateTime getDateTime() {
@@ -29,5 +44,27 @@ public class UserMeal {
 
     public int getCalories() {
         return calories;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public boolean isNew() {
+        return id == null;
+    }
+
+    @Override
+    public String toString() {
+        return "UserMeal{" +
+                "id=" + id +
+                ", dateTime=" + dateTime +
+                ", description='" + description + '\'' +
+                ", calories=" + calories +
+                '}';
     }
 }
