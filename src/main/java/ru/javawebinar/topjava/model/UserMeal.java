@@ -6,32 +6,25 @@ import java.time.LocalDateTime;
  * GKislin
  * 11.01.2015.
  */
-public class UserMeal {
-    protected Integer id;
+public class UserMeal extends BaseEntity {
 
+    Integer id;
     protected final LocalDateTime dateTime;
 
     protected final String description;
 
     protected final int calories;
 
-    protected final int userId;
 
-
-    public UserMeal(LocalDateTime dateTime, String description, int calories, int userId) {
-        this(null, dateTime, description, calories, userId);
+    public UserMeal(LocalDateTime dateTime, String description, int calories) {
+        this(null, dateTime, description, calories);
     }
 
-    public UserMeal(Integer id, LocalDateTime dateTime, String description, int calories, int userId) {
+    public UserMeal(Integer id, LocalDateTime dateTime, String description, int calories) {
         this.id = id;
         this.dateTime = dateTime;
         this.description = description;
         this.calories = calories;
-        this.userId = userId;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public LocalDateTime getDateTime() {
@@ -46,12 +39,13 @@ public class UserMeal {
         return calories;
     }
 
-    public Integer getId() {
-        return id;
+    @Override
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public int getUserId() {
-        return userId;
+    public Integer getId() {
+        return id;
     }
 
     public boolean isNew() {

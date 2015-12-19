@@ -15,7 +15,24 @@
     <h2><a href="index.html">Home</a></h2>
     <h3>Meal list</h3>
     <a href="meals?action=create">Add Meal</a>
+
+
     <hr>
+    <form  action="meals" method="get">
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <td>From date:<input type="date"  name="fromDate"></td>
+                <td>To date:<input type="date"  name="toDate"></td>
+            </tr>
+            <tr>
+                <td>From time:<input type="time"  name="fromTime"></td>
+                <td>To time:<input type="time"  name="toTime"></td>
+            </tr>
+            <input type="hidden" name="action" value="filter">
+            <td colspan="2"><button type="submit">Filter</button></td>
+            </tr>
+        </table>
+    </form>
     <table border="1" cellpadding="8" cellspacing="0">
         <thead>
         <tr>

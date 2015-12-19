@@ -6,6 +6,7 @@ import ru.javawebinar.topjava.model.User;
 import ru.javawebinar.topjava.model.UserMeal;
 import ru.javawebinar.topjava.repository.UserRepository;
 import ru.javawebinar.topjava.util.UserMealsUtil;
+import ru.javawebinar.topjava.util.UserUtil;
 import ru.javawebinar.topjava.util.exception.NotFoundException;
 
 import java.util.ArrayList;
@@ -28,7 +29,7 @@ public class InMemoryUserRepositoryImpl implements UserRepository {
     private AtomicInteger counter = new AtomicInteger(0);
 
     {
-        UserMealsUtil.USER_LIST.forEach(this::save);
+        UserUtil.USER_LIST.forEach(this::save);
     }
 
     @Override
@@ -40,7 +41,7 @@ public class InMemoryUserRepositoryImpl implements UserRepository {
 
     @Override
     public User save(User user) {
-        LOG.info("save " + user);
+        LOG.info("create " + user);
         if (user.isNew()) {
             user.setId(counter.incrementAndGet());
         }
