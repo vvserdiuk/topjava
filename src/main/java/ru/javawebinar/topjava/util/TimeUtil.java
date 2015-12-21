@@ -24,6 +24,10 @@ public class TimeUtil {
         return ldt.compareTo(startDateTime) >= 0 && ldt.compareTo(endDateTime) <= 0;
     }
 
+    public static boolean isBetweenDate(LocalDateTime ld, LocalDateTime startDate, LocalDateTime endDate) {
+        return ld.compareTo(startDate) >= 0 && ld.compareTo(endDate) <= 0;
+    }
+
     public static String toString(LocalDateTime ldt) {
         return ldt == null ? "" : ldt.format(DATE_TME_FORMATTER);
     }
