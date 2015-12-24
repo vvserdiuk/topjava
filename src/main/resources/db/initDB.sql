@@ -27,10 +27,11 @@ CREATE TABLE user_roles
 
 CREATE TABLE meals
 (
-  id           SERIAL PRIMARY KEY ,
+  id           INTEGER PRIMARY KEY ,
   datetime     TIMESTAMP NOT NULL,
   description  VARCHAR NOT NULL,
   calories     INTEGER NOT NULL,
   user_id      INTEGER NOT NULL,
   FOREIGN KEY (user_id) REFERENCES users(id)
+
 );
