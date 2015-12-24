@@ -18,8 +18,8 @@ public class DbPopulator extends ResourceDatabasePopulator {
     @Autowired
     private DataSource dataSource;
 
-    public DbPopulator(String scriptLocation) {
-        super(RESOURCE_LOADER.getResource(scriptLocation));
+    public DbPopulator(String... scriptLocation) {
+        super(RESOURCE_LOADER.getResource(scriptLocation[0]), RESOURCE_LOADER.getResource(scriptLocation[1]));
     }
 
     public void execute() {

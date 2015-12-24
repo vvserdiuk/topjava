@@ -20,7 +20,7 @@ public class MealTestData {
             new UserMeal(2, LocalDateTime.of(2015, Month.NOVEMBER, 30, 18, 00), "ужин", 500);
 
     public static final UserMeal LUNCH_USER_FOR_SAVING   =
-            new UserMeal(5, LocalDateTime.of(2015, Month.NOVEMBER, 30, 14, 00), "обед", 1000);
+            new UserMeal(LocalDateTime.of(2015, Month.NOVEMBER, 30, 14, 00), "обед", 1000);
 
     public static final UserMeal LUNCH_ADM =
             new UserMeal(3, LocalDateTime.of(2015, Month.NOVEMBER, 30, 14, 00), "обед Админ", 1100);
