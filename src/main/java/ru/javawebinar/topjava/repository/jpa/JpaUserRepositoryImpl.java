@@ -35,7 +35,8 @@ public class JpaUserRepositoryImpl implements UserRepository {
         if (user.isNew()) {
             em.persist(user);
             return user;
-        } else {
+        }
+        else {
             return em.merge(user);
         }
     }
