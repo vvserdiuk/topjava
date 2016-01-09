@@ -10,6 +10,7 @@ import javax.persistence.*;
 import javax.validation.constraints.Digits;
 import java.util.Date;
 import java.util.EnumSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -38,6 +39,10 @@ public class User extends NamedEntity {
     @NotEmpty
     @Length(min = 5)
     protected String password;
+
+    @OneToMany(cascade = CascadeType.REMOVE, fetch = FetchType.EAGER, mappedBy = "user")
+    @OrderBy("dateTime DESC")
+    protected List<UserMeal> meals;
 
     @Column(name = "enabled", nullable = false)
     protected boolean enabled = true;
@@ -73,6 +78,14 @@ public class User extends NamedEntity {
         this.caloriesPerDay = caloriesPerDay;
         this.enabled = enabled;
         this.roles = roles;
+    }
+
+    public List<UserMeal> getMeals() {
+        return meals;
+    }
+
+    public void setMeals(List<UserMeal> meals) {
+        this.meals = meals;
     }
 
     public String getEmail() {

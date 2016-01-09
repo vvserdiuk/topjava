@@ -18,6 +18,11 @@ public interface UserRepository {
     User get(int id);
 
     // null if not found
+    default User getWithMeal(int id){
+        throw new UnsupportedOperationException("operation suuported only in DataJpaRepository");
+    }
+
+    // null if not found
     User getByEmail(String email);
 
     List<User> getAll();

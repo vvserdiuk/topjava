@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Repository;
 import ru.javawebinar.topjava.model.User;
+import ru.javawebinar.topjava.model.UserMeal;
 import ru.javawebinar.topjava.repository.UserRepository;
 
 import java.util.List;
@@ -33,6 +34,11 @@ public class DataJpaUserRepositoryImpl implements UserRepository {
     @Override
     public User get(int id) {
         return proxy.findOne(id);
+    }
+
+    @Override
+    public User getWithMeal(int id) {
+        return proxy.getWithMeal(id);
     }
 
     @Override

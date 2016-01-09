@@ -30,6 +30,9 @@ public interface ProxyUserRepository extends JpaRepository<User, Integer> {
     @Override
     User findOne(Integer id);
 
+    @Query("SELECT u FROM User u JOIN FETCH u.meals WHERE u.id=:id")
+    User getWithMeal(@Param("id") Integer id);
+
     @Override
     List<User> findAll(Sort sort);
 

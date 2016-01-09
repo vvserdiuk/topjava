@@ -34,10 +34,11 @@ public interface ProxyUserMealRepository extends JpaRepository<UserMeal, Integer
     int update(@Param("datetime") LocalDateTime datetime, @Param("calories") int calories,
                     @Param("desc") String description, @Param("id") int id, @Param("userId") int userId);
 
-
-
     @Query("SELECT m FROM UserMeal m WHERE m.id=:id AND m.user.id=:userId")
     UserMeal findOne(@Param("id") int id, @Param("userId")int userId);
+
+    @Query("SELECT m FROM UserMeal m JOIN FETCH m.user WHERE m.id=:id AND m.user.id=:userId")
+    UserMeal getWithUser(@Param("id") int id, @Param("userId")int userId);
 
     @Query("SELECT m FROM UserMeal m WHERE m.user.id=:userId ORDER BY m.dateTime DESC")
     List<UserMeal> findAll(@Param("userId")int userId);
@@ -45,4 +46,5 @@ public interface ProxyUserMealRepository extends JpaRepository<UserMeal, Integer
     @Query("SELECT m from UserMeal m WHERE m.user.id=:userId " +
             " AND m.dateTime BETWEEN :startDate AND :endDate ORDER BY m.dateTime DESC")
     List<UserMeal> getBetween(@Param("userId")int userId, @Param("startDate")LocalDateTime startDate, @Param("endDate") LocalDateTime endDate);
+
 }
