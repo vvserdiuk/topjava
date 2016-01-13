@@ -19,7 +19,7 @@ public class RootController {
     @Autowired
     private UserService service;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = {"/", "/index"}, method = RequestMethod.GET)
     public String root() {
         return "index";
     }

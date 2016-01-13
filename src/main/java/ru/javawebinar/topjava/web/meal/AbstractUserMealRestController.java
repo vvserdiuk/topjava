@@ -18,8 +18,8 @@ import java.util.List;
  * 06.03.2015.
  */
 @Controller
-public class UserMealRestController {
-    private static final LoggerWrapper LOG = LoggerWrapper.get(UserMealRestController.class);
+public abstract class AbstractUserMealRestController {
+    protected static final LoggerWrapper LOG = LoggerWrapper.get(AbstractUserMealRestController.class);
 
     @Autowired
     private UserMealService service;
