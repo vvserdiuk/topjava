@@ -16,7 +16,7 @@
                 <%--http://stackoverflow.com/questions/10327390/how-should-i-get-root-folder-path-in-jsp-page--%>
                 <h3><a href="${pageContext.request.contextPath}">Home</a></h3>
                 <h3><fmt:message key="meals.title"/></h3>
-                <form method="post" action="meals/filter">
+                <form method="post" action="meals/filter" id="filterForm">
                     <dl>
                         <dt>From Date:</dt>
                         <dd><input type="date" name="startDate" value="${startDate}"></dd>
@@ -33,7 +33,7 @@
                         <dt>To Time:</dt>
                         <dd><input type="time" name="endTime" value="${endTime}"></dd>
                     </dl>
-                    <button type="submit">Filter</button>
+                    <button type="submit" class="btn btn-primary pull-right">Filter</button>
                 </form>
                 <hr>
                 <a class="btn btn-sm btn-info" id="add"><fmt:message key="meals.add"/></a>

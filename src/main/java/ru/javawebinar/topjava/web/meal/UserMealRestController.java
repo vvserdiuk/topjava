@@ -56,6 +56,7 @@ public class UserMealRestController extends AbstractUserMealController {
         return new ResponseEntity<>(created, httpHeaders, HttpStatus.CREATED);
     }
 
+
     @RequestMapping(value = "/between", method = RequestMethod.GET)
     public List<UserMealWithExceed> getBetween(
             @RequestParam(value = "startDateTime") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime startDateTime,
@@ -65,8 +66,10 @@ public class UserMealRestController extends AbstractUserMealController {
 
     @RequestMapping(value = "/filter", method = RequestMethod.GET)
     public List<UserMealWithExceed> getBetween(
-            @RequestParam(value = "startDate", required = false) LocalDate startDate, @RequestParam(value = "startTime", required = false) LocalTime startTime,
-            @RequestParam(value = "endDate", required = false) LocalDate endDate, @RequestParam(value = "endTime", required = false) LocalTime endTime) {
+            @RequestParam(value = "startDate", required = false) LocalDate startDate,
+            @RequestParam(value = "startTime", required = false) LocalTime startTime,
+            @RequestParam(value = "endDate", required = false) LocalDate endDate,
+            @RequestParam(value = "endTime", required = false) LocalTime endTime) {
         return super.getBetween(
                 startDate != null ? startDate : TimeUtil.MIN_DATE, startTime != null ? startTime : LocalTime.MIN,
                 endDate != null ? endDate : TimeUtil.MAX_DATE, endTime != null ? endTime : LocalTime.MAX);

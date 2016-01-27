@@ -14,6 +14,11 @@ function makeEditable() {
         return false;
     });
 
+    $('#filterForm').submit(function(){
+        filter();
+        return false;
+    });
+
     $(document).ajaxError(function (event, jqXHR, options, jsExc) {
         failNoty(event, jqXHR, options, jsExc);
     });
@@ -28,6 +33,51 @@ function deleteRow(id) {
             successNoty('Deleted');
         }
     });
+}
+
+//function enable(chkbox, id){
+//    var enabled = chkbox.is(":checked");
+//    //var id = $(this).attr('id');
+//    //var enabled = $(this).is(":checked");
+//    $.ajax({
+//        url : ajaxUrl + id,
+//        type: 'POST',
+//        data: 'enabled=' + enabled,
+//        success: function () {
+//            successNoty(enabled ? 'Enabled' : 'Disabled');
+//        }
+//    })
+//}
+
+function enable(chkbox, id) {
+    var enabled = chkbox.is(":checked");
+    chkbox.closest('tr').css("text-decoration", enabled ? "none" : "line-through");
+    $.ajax({
+        url: ajaxUrl + id,
+        type: 'POST',
+        data: 'enabled=' + enabled,
+        success: function () {
+            successNoty(enabled ? 'Enabled' : 'Disabled');
+        }
+    });
+}
+
+function filter(){
+    var form = $('#filterForm');
+    $.ajax({
+        type: 'GET',
+        url: ajaxUrl + '/filter',
+        data: form.serialize(),
+        success: function(data){
+            oTable_datatable.fnClearTable();
+            $.each(data, function (key, item) {
+                oTable_datatable.fnAddData(item);
+            });
+            oTable_datatable.fnDraw();
+            successNoty('Filtered')
+        }
+    });
+
 }
 
 function updateTable() {
