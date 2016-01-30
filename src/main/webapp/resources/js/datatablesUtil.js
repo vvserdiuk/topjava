@@ -6,7 +6,7 @@ function makeEditable() {
     });
 
     $('.delete').click(function () {
-        deleteRow($(this).attr("id"));
+        deleteRow($(this).closest("tr").attr("id"));
     });
 
     $('#detailsForm').submit(function () {
@@ -35,20 +35,6 @@ function deleteRow(id) {
     });
 }
 
-//function enable(chkbox, id){
-//    var enabled = chkbox.is(":checked");
-//    //var id = $(this).attr('id');
-//    //var enabled = $(this).is(":checked");
-//    $.ajax({
-//        url : ajaxUrl + id,
-//        type: 'POST',
-//        data: 'enabled=' + enabled,
-//        success: function () {
-//            successNoty(enabled ? 'Enabled' : 'Disabled');
-//        }
-//    })
-//}
-
 function enable(chkbox, id) {
     var enabled = chkbox.is(":checked");
     chkbox.closest('tr').css("text-decoration", enabled ? "none" : "line-through");
@@ -69,24 +55,17 @@ function filter(){
         url: ajaxUrl + '/filter',
         data: form.serialize(),
         success: function(data){
-            oTable_datatable.fnClearTable();
-            $.each(data, function (key, item) {
-                oTable_datatable.fnAddData(item);
-            });
-            oTable_datatable.fnDraw();
+            dataTableApi.clear().rows.add(data).draw();
             successNoty('Filtered')
         }
     });
 
 }
 
+
 function updateTable() {
     $.get(ajaxUrl, function (data) {
-        oTable_datatable.fnClearTable();
-        $.each(data, function (key, item) {
-            oTable_datatable.fnAddData(item);
-        });
-        oTable_datatable.fnDraw();
+        dataTableApi.clear().rows.add(data).draw();
     });
 }
 

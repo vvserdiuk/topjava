@@ -107,50 +107,26 @@
 <script type="text/javascript">
 
     var ajaxUrl = 'ajax/admin/users/';
-    var oTable_datatable;
-    var oTable_datatable_params;
+    var dataTableApi;
 
-    //            $(document).ready(function () {
-    $(function () {
-        oTable_datatable = $('#datatable');
-        oTable_datatable_params = {
+    $(function(){
+        dataTableApi = $('#datatable').DataTable(
+        {
             "bPaginate": false,
             "bInfo": false,
             "aoColumns": [
-                {
-                    "mData": "name"
-                },
-                {
-                    "mData": "email"
-                },
-                {
-                    "mData": "roles"
-                },
-                {
-                    "mData": "enabled"
-                },
-                {
-                    "mData": "registered"
-                },
-                {
-                    "sDefaultContent": "",
-                    "bSortable": false
-                },
-                {
-                    "sDefaultContent": "",
-                    "bSortable": false
-                }
+                {"mData": "name"},
+                {"mData": "email"},
+                {"mData": "roles"},
+                {"mData": "enabled"},
+                {"mData": "registered"},
+                {"sDefaultContent": "","bSortable": false},
+                {"sDefaultContent": "","bSortable": false}
             ],
-            "aaSorting": [
-                [
-                    0,
-                    "asc"
-                ]
-            ]
-        };
-
-        oTable_datatable.dataTable(oTable_datatable_params);
+            "aaSorting": [[0,"asc"]]
+        });
         makeEditable();
     });
+
 </script>
 </html>

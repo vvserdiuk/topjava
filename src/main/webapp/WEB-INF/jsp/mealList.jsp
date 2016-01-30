@@ -50,7 +50,7 @@
                     </thead>
                     <c:forEach items="${mealList}" var="meal">
                         <jsp:useBean id="meal" scope="page" type="ru.javawebinar.topjava.to.UserMealWithExceed"/>
-                        <tr class="${meal.exceed ? 'exceeded' : 'normal'}">
+                        <tr class="${meal.exceed ? 'exceeded' : 'normal'} id="${meal.id}" ">
                             <td>
                                     <%--<fmt:parseDate value="${meal.dateTime}" pattern="y-M-dd'T'H:m" var="parsedDate"/>--%>
                                     <%--<fmt:formatDate value="${parsedDate}" pattern="yyyy.MM.dd HH:mm" />--%>
@@ -58,8 +58,8 @@
                             </td>
                             <td>${meal.description}</td>
                             <td>${meal.calories}</td>
-                            <td><a class="btn btn-xs btn-primary edit" id="${meal.id}">Update</a></td>
-                            <td><a class="btn btn-xs btn-danger delete" id="${meal.id}">Delete</a></td>
+                            <td><a class="btn btn-xs btn-primary edit" >Update</a></td>
+                            <td><a class="btn btn-xs btn-danger delete">Delete</a></td>
                         </tr>
                     </c:forEach>
                 </table>
@@ -125,46 +125,27 @@
 <script type="text/javascript">
 
     var ajaxUrl = 'ajax/meals/';
-    var oTable_datatable;
-    var oTable_datatable_params;
+    var dataTableApi;
 
-
-    $(document).ready(function () {
-        oTable_datatable = $('#datatable');
-        oTable_datatable_params = {
-            "bPaginate": false,
-            "bInfo": false,
-            "aoColumns": [
-                {
-                    "mData": "dateTime"
-                },
-                {
-                    "mData": "description"
-                },
-                {
-                    "mData": "calories"
-                },
-                {
-                    "sDefaultContent": "",
-                    "bSortable": false
-                },
-                {
-                    "sDefaultContent": "",
-                    "bSortable": false
-                }
+    $(document).ready(function(){
+        dataTableApi = $('#datatable').DataTable(
+        {
+            "paging": false,
+            "info": false,
+            "columns" : [
+                {"data" : "dateTime"},
+                {"data" : "description"},
+                {"data" : "calories"},
+                {"defaultContent": "", "orderable": false},
+                {"defaultContent": "", "orderable": false}
             ],
-            "aaSorting": [
-                [
-                    0,
-                    "desc"
-                ]
-            ]
-        };
-
-        oTable_datatable.dataTable(oTable_datatable_params);
-
+            order : [[0, "desc"]]
+        });
+        makeEditable();
     });
-    makeEditable();
+
+
+
 
 
 </script>

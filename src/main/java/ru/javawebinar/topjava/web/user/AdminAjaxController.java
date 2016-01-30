@@ -1,6 +1,7 @@
 package ru.javawebinar.topjava.web.user;
 
 import org.springframework.http.MediaType;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import ru.javawebinar.topjava.model.Role;
 import ru.javawebinar.topjava.model.User;
@@ -25,6 +26,7 @@ public class AdminAjaxController extends AbstractUserController {
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.POST)
+    @Transactional
     public void enable(@PathVariable("id") int id, @RequestParam("enabled") boolean enabled){
         User user = get(id);
         user.setEnabled(enabled);
