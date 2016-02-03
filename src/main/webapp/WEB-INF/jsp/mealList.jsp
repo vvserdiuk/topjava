@@ -22,26 +22,26 @@
                         <label class="control-label col-sm-2" for="startDate">From Date:</label>
 
                         <div class="col-sm-2">
-                            <input type="date" name="startDate" id="startDate">
+                            <input class="datePicker" name="startDate" id="startDate">
                         </div>
 
                         <label class="control-label col-sm-2" for="endDate">To Date:</label>
 
                         <div class="col-sm-2">
-                            <input type="date" name="endDate" id="endDate">
+                            <input class="datePicker" name="endDate" id="endDate">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="startTime">From Time:</label>
 
                         <div class="col-sm-2">
-                            <input type="time" name="startTime" id="startTime">
+                            <input class="timePricker" name="startTime" id="startTime">
                         </div>
 
                         <label class="control-label col-sm-2" for="endTime">To Time:</label>
 
                         <div class="col-sm-2">
-                            <input type="time" name="endTime" id="endTime">
+                            <input class="timePricker" name="endTime" id="endTime">
                         </div>
                     </div>
                     <div class="form-group">
@@ -61,20 +61,6 @@
                         <th></th>
                     </tr>
                     </thead>
-                    <%--<c:forEach items="${mealList}" var="meal">--%>
-                        <%--<jsp:useBean id="meal" scope="page" type="ru.javawebinar.topjava.to.UserMealWithExceed"/>--%>
-                        <%--<tr class="${meal.exceed ? 'exceeded' : 'normal'}" id="${meal.id}">--%>
-                            <%--<td>--%>
-                                    <%--&lt;%&ndash;<fmt:parseDate value="${meal.dateTime}" pattern="y-M-dd'T'H:m" var="parsedDate"/>&ndash;%&gt;--%>
-                                    <%--&lt;%&ndash;<fmt:formatDate value="${parsedDate}" pattern="yyyy.MM.dd HH:mm" />&ndash;%&gt;--%>
-                                <%--<%=TimeUtil.toString(meal.getDateTime())%>--%>
-                            <%--</td>--%>
-                            <%--<td>${meal.description}</td>--%>
-                            <%--<td>${meal.calories}</td>--%>
-                            <%--<td><a class="btn btn-xs btn-primary edit">Edit</a></td>--%>
-                            <%--<td><a class="btn btn-xs btn-danger delete">Delete</a></td>--%>
-                        <%--</tr>--%>
-                    <%--</c:forEach>--%>
                 </table>
             </div>
         </div>

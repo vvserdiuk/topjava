@@ -6,7 +6,14 @@ function makeEditable() {
         $('#id').val(0);
         $('#editRow').modal();
     });
-
+    $('.datePicker').datetimepicker({
+        timepicker:false,
+        format: 'Y-m-d'
+    });
+    $('.timePricker').datetimepicker({
+        datepicker:false,
+        format:'H:i'
+    });
     form.submit(function () {
         save();
         return false;

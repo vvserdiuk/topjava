@@ -61,16 +61,20 @@ $(function () {
                 $(row).css("color", "red");
             }
         },
-        "initComplete": makeEditable
+        "initComplete": function(){
+            $('#filter').submit(function () {
+                updateTable();
+                return false;
+            });
+            makeEditable();
+        }
     });
 
-    $('#filter').submit(function () {
-        updateTable();
-        return false;
-    });
+
     //makeEditable();
-    //init();
+    //initDateTimePicker();
 });
+
 
 //function init() {
 //}
