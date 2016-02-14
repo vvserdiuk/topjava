@@ -20,6 +20,7 @@
                 <button type="submit" class="btn btn-success"><fmt:message key="app.login"/></button>
             </form:form>
         </div>
+        Language : <a href="?language=en">English</a>|<a href="?language=ru">Chinese</a>
     </div>
 </div>
 
