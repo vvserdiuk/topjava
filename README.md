@@ -2,4 +2,4 @@ Java Enterprise project with registration/authorization and role-based interface
 
 DEMO: http://topjava.herokuapp.com/
 
-The project is made to gain expirience so some of this functionality is duplicated to use a variety of techniques just for practice (e.g. access to the database is made via JDBC, JPA and Spring DataJpa).
+The project is made to gain expirience so some of this functionality is duplicated just to use a variety of techniques for practice (e.g. access to the database is made via JDBC, JPA and Spring DataJpa).
