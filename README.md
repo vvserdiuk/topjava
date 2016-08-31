@@ -1,5 +1,5 @@
-   Java Enterprise проект с регистрацией/авторизацией и интерфейсом на основе ролей (USER, ADMIN). Администратор может создавать/редактировать/удалять/пользователей, а пользователь - управлять своим профилем и данными (день, еда, калории) через UI (по AJAX) и по REST интерфейсу с базовой авторизацией. Возможна фильтрация данных по датам и времени, при этом цвет записи таблицы еды зависит от того, превышает ли сумма калорий за день норму (редактируемый параметр в профиле пользователя). Весь REST интерфейс покрывается JUnit тестами, используя Spring MVC Test и Spring Security Test.
-   
-   DEMO: http://topjava.herokuapp.com/
-  
-   Проект учебный по этому некоторый один и тот же функционал сделан с помощью различных технологий просто для практики (напр. доступ к базе сделан через JDBC, JPA и Spring DataJpa).
+Java Enterprise project with registration/authorization and role-based interface (USER, ADMIN). The administrator can create/edit/delete/users and the user can manage his profile and data (day, food, calories) through the UI (via AJAX) and REST interface with basic authentication. Data can be filtered by date and time and the color of entry in table depends on whether the amount of calories per day more than norm (it's editable parameter in profile). All REST interface covered with JUnit tests using Spring MVC Test and Spring Security Test.
+
+DEMO: http://topjava.herokuapp.com/
+
+The project is made to gain expirience so some of this functionality is duplicated to use a variety of techniques just for practice (e.g. access to the database is made via JDBC, JPA and Spring DataJpa).
